@@ -1,0 +1,10 @@
+#adminmenu li.toplevel_page_woodojo .wp-menu-image a img, #adminmenu li.toplevel_page_woodojo:hover .wp-menu-image img, #adminmenu li.toplevel_page_woodojo.wp-has-current-submenu .wp-menu-image img { display: none; opacity: 0; }
+#wpwrap li.toplevel_page_woodojo div.wp-menu-image  { background: url(../images/dojo_menu_sprite.png) no-repeat 0 -32px; }
+#wpwrap li.toplevel_page_woodojo.current div.wp-menu-image, #wpwrap li.toplevel_page_woodojo:hover div.wp-menu-image, #wpwrap li.toplevel_page_woodojo.wp-has-current-submenu div.wp-menu-image  { background-position: 0 top; }
+
+#woodojo.more-information { margin: 0 20px 0; }
+#woodojo.more-information .main-heading  { padding: 0; margin: 10px 0 20px; }
+#woodojo.more-information .component-stats  { display: none; float: right; width: 200px; }
+#woodojo.more-information .component-stats h3  { margin: 0; padding: 5px 10px; background: #CEE1EF; }
+#woodojo.more-information .component-stats ul  { margin-top: 0; padding: 10px; background: #EAF3FA; border-radius: 0 0 5px 5px; -moz-border-radius: 0 0 5px 5px; -webkit-border-radius: 0 0 5px 5px; }
+#woodojo.more-information #images  { margin: 20px 0 0; }

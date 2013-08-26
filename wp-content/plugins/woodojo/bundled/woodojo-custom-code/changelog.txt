@@ -1,0 +1,12 @@
+*** WooDojo Custom Code Changelog ***
+
+2012.09.04 - version 1.0.3
+ * /classes/woodojo-custom-code.class.php - Make sure there is a space when setting the content type for the generated CSS, to ensure Apache recognises the content type correctly.
+
+2012.06.26 - version 1.0.2
+ * /classes/woodojo-custom-code.class.php - Code standards clean-up and maintenance updates. Add scope to methods where scope was missing.
+ * /classes/settings.class.php - Code standards clean-up and maintenance updates. Add scope to methods where scope was missing.
+ * woodojo-custom-code.php - Code standards clean-up and maintenance updates.
+
+2012.06.19 - version 1.0.1
+ * /classes/settings.class.php - Remove HTML textareas for users without the "unfiltered_html" capability.

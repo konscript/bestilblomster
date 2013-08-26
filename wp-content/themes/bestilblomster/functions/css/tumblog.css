@@ -1,0 +1,146 @@
+/*
+* Tumblog CSS
+*/
+
+/* Editor Styling
+----------------------------------*/
+
+#tumblog-menu  { margin: 10px 0 0; padding: 0 0 0 0; }
+#tumblog-menu a  { margin: 0 5px 5px 0; background-color: #f1f1f1!important; border:1px solid #dcdcdc; line-height: 40px; padding: 6px 10px 6px 0; -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -moz-border-radius-topleft:4px; -moz-border-radius-topright:4px; }
+#tumblog-menu a:hover  { background-color: #e7e7e7!important; }
+#tumblog-menu #articles-menu-button  { padding-left: 33px; background: url(../images/btn-tumblog-note.png) no-repeat 10px center; }
+#tumblog-menu #images-menu-button  { padding-left: 39px; background: url(../images/btn-tumblog-image.png) no-repeat 10px center; }
+#tumblog-menu #links-menu-button  { padding-left: 44px; background: url(../images/btn-tumblog-link.png) no-repeat 10px center; }
+#tumblog-menu #audio-menu-button  { padding-left: 28px; background: url(../images/btn-tumblog-audio.png) no-repeat 10px center; }
+#tumblog-menu #videos-menu-button  { padding-left: 36px; background: url(../images/btn-tumblog-video.png) no-repeat 10px center; }
+#tumblog-menu #quotes-menu-button  { padding-left: 41px; background: url(../images/btn-tumblog-quote.png) no-repeat 10px center; }
+#tumblog-menu #chat-menu-button  { padding-left: 26px; display: none; }
+
+#tumblog-post  { position: relative; }
+#tumblog-post h4  { font-family: "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif; font-weight: bold; }
+#article-fields, #video-fields, #image-fields, #link-fields, #audio-fields, #quote-fields, #tag-fields  { margin: 15px 0 0 0; }
+#article-fields input, #video-fields input, #image-fields input, #link-fields input, #audio-fields input, #quote-fields input,
+#article-fields textarea, #video-fields textarea, #image-fields textarea, #link-fields textarea, #audio-fields textarea, #quote-fields textarea, #tag-fields input  { 
+margin: 4px 0 13px 0; cursor: pointer;
+-moz-border-radius-bottomleft:4px;
+-moz-border-radius-bottomright:4px;
+-moz-border-radius-topleft:4px;
+-moz-border-radius-topright:4px; border: 1px solid #DFDFDF!important;
+width: 100%; }
+
+#article-fields input, #video-fields input, #image-fields input, #link-fields input, #audio-fields input, #quote-fields input, #tag-fields input  { padding-top: 6px; padding-bottom: 3px; }
+
+#tumblog-post h4 label  { padding: 0 20px 0 0; }
+#tumblog-post h4 #image-url-button, #tumblog-post h4 #image-upload-button, #tumblog-post h4 #audio-url-button, #tumblog-post h4 #audio-upload-button  { padding: 0 0 0 20px; font-family: Georgia, serif; font-style: italic; font-weight: normal;}
+
+#ajax-loader  { position: absolute; top: 10px; right: 10px; }
+#tumblog-post .error  { display: block; padding-top: 8px; padding-bottom: 8px; font-weight: bold; }
+#tumblog-post .success  { -moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px; background-color: #c5f0bf; border: 1px solid #2b931d; display: block; padding-left: 10px; padding-top: 8px; padding-bottom: 8px; font-weight: bold;  }
+
+#content-fields  { margin: 0 0 10px 0; }
+
+#image_upload_button, #audio_upload_button {
+cursor: pointer!important; width: 200px!important;
+}
+
+.hide-fields {
+display: none;
+}
+
+#quicktags {
+background-color:#DFDFDF;
+border-color:#DFDFDF;
+}
+#ed_toolbar input {
+border-color:#C3C3C3;
+}
+#ed_toolbar input:hover {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:#DDDDDD none repeat scroll 0 0;
+border-color:#AAAAAA;
+}
+#content-fields .wp_themeSkin .mceStatusbar {
+border-color:#EDEDED;
+}
+#content-fields #edButtonPreview, #content-fields #edButtonHTML {
+background-color:#F1F1F1;
+border-color:#DFDFDF;
+color:#999999;
+}
+#content-fields #editor-toolbar .active {
+background-color:#E9E9E9;
+border-bottom-color:#E9E9E9;
+color:#333333;
+}
+
+#content-fields #add-media-button {
+float:right;
+margin:7px 0 0;
+position:relative;
+right:10px;
+}
+#content-fields #editor-toolbar {
+height:30px;
+}
+.wp_themeSkin tr.mceFirst td.mceToolbar {
+border-style:none none solid;
+border-width:0 0 1px;
+}
+#edButtonPreview, #edButtonHTML {
+-moz-border-radius-bottomleft:0;
+-moz-border-radius-bottomright:0;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+border-style:solid;
+border-width:1px;
+cursor:pointer;
+float:right;
+height:18px;
+margin:5px 5px 0 0;
+padding:4px 5px 2px;
+}
+.js .theEditor {
+color:white;
+}
+#content-fields #edButtonHTML {
+margin-right:15px;
+}
+#media-buttons {
+cursor:default;
+padding:8px 8px 0;
+}
+#media-buttons a {
+cursor:pointer;
+padding:0 0 5px 10px;
+}
+#media-buttons img, #submitpost #ajax-loading {
+vertical-align:middle;
+}
+
+.tumblog-title {
+-moz-border-radius-bottomleft:6px;
+-moz-border-radius-bottomright:6px;
+-moz-border-radius-topleft:6px;
+-moz-border-radius-topright:6px;
+border-style:solid;
+border-width:1px;
+font-size:1.7em;
+outline-color:-moz-use-text-color;
+outline-style:none;
+outline-width:medium;
+padding:3px 4px;
+width:100%;
+}
+
+.editorwidth { width:100% !important; }
+
+.hide-cat { display:none; }
+
+#advanced-options-toggle { float:right; cursor:pointer; }
+
+.tumblog-time { width:30px; }

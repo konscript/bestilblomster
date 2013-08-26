@@ -1,0 +1,365 @@
+# Translation of Twenty Ten in Danish
+# This file is distributed under the same license as the Twenty Ten package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-08-02 20:08:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Twenty Ten\n"
+
+msgid "http://wordpress.org/themes/twentyten"
+msgstr ""
+
+#: functions.php:386
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Tilføj widgets her som skal være i din sidebar"
+
+#: functions.php:397
+msgid "An optional secondary widget area, displays below the primary widget area in your sidebar."
+msgstr "Et valgfrit sekundært widget område, vises under det primære widget område i din sidebar."
+
+#: functions.php:408 functions.php:419 functions.php:430 functions.php:441
+msgid "An optional widget area for your site footer."
+msgstr "Et valgfrit widget område til din sides footer."
+
+msgid "One column, no sidebar"
+msgstr "En kolonne, ingen sidebar"
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: loop.php:81
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Dette galleri indeholder <a %1$s>%2$s billede</a>."
+msgstr[1] "Dette galleri indeholder <a %1$s>%2$s billeder</a>."
+
+#: loop.php:92
+msgid "View Galleries"
+msgstr "Se gallerier"
+
+msgid "The 2010 theme for WordPress is stylish, customizable, simple, and readable -- make it yours with a custom menu, header image, and background. Twenty Ten supports six widgetized areas (two in the sidebar, four in the footer) and featured images (thumbnails for gallery posts and custom header images for posts and pages). It includes stylesheets for print and the admin Visual Editor, special styles for posts in the \"Asides\" and \"Gallery\" categories, and has an optional one-column page template that removes the sidebar."
+msgstr "WordPress' 2010 tema har stil, kan tilpasses, er simpelt og læsevenligt. Du kan gøre det til dit helt eget tema med egne menuer, topbillede og baggrund. Twenty Ten giver mulighed for seks widgetområder (to i sidebaren, fire i footeren) og fremhævede billeder (miniaturer til galleriindlæg og egne topbilleder for indlæg og sider). Det inkluderer stylesheets for udskrivning og den visuelle editor i kontrolpanelet, specielle styles for indlæg i kategorierne \"sidebemærkninger\" og \"galleri\", og har mulighed for en sideskabelon med én kolonne, som fjerner sidebaren."
+
+#: loop.php:150
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Udgivet i</span> %2$s"
+
+#: functions.php:475
+msgid "<span class=\"%1$s\">Posted on</span> %2$s <span class=\"meta-sep\">by</span> %3$s"
+msgstr "<span class=\"%1$s\">Udgivet den</span> %2$s <span class=\"meta-sep\">af</span> %3$s"
+
+#: loop.php:159
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Tagget</span> %2$s"
+
+#: functions.php:505
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Bogmærk <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalinket</a>."
+
+#: loop-single.php:47
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vis alle indlæg af %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:41 comments.php:60
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ældre kommentarer"
+
+#: loop-attachment.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> %s"
+msgstr "<span class=\"meta-nav\">&larr;</span> %s"
+
+#: comments.php:42 comments.php:61
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere kommentarer <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:93
+msgid "Primary Navigation"
+msgstr "Primær navigation"
+
+#: loop.php:35
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Beklager, men der blev ikke fundet noget i arkivet. Måske vil en søgning hjælpe dig til at finde et relevant indlæg."
+
+#: functions.php:338
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">skriver:</span>"
+
+#: loop-attachment.php:32
+msgid "<span class=\"%1$s\">By</span> %2$s"
+msgstr "<span class=\"%1$s\">Af</span> %2$s"
+
+#: loop-attachment.php:43
+msgid "<span class=\"%1$s\">Published</span> %2$s"
+msgstr "<span class=\"%1$s\">Udgivet</span> %2$s"
+
+#: loop-attachment.php:53
+msgid "Full size is %s pixels"
+msgstr "Fuld størrelse er %s pixels"
+
+#: loop-attachment.php:56
+msgid "Link to full-size image"
+msgstr "Link til billedet i fuld størrelse"
+
+#: author.php:27
+msgid "Author Archives: %s"
+msgstr "Forfatterarkiv: %s"
+
+#: footer.php:33
+msgid "Proudly powered by %s."
+msgstr "Drevet af %s."
+
+#: functions.php:365
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:501
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Dette indlæg blev udgivet i %1$s og tagget %2$s. Bogmærk <a href=\"%3$s\" title=\"Permalink til %4$s\" rel=\"bookmark\">permalinket</a>."
+
+#: functions.php:503
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Dette indlæg blev udgivet i %1$s. Bogmærk <a href=\"%3$s\" title=\"Permalink til %4$s\" rel=\"bookmark\">permalinket</a>."
+
+#: comments.php:35
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] "En kommentar til %2$s"
+msgstr[1] "%1$s kommentarer til %2$s"
+
+#: loop.php:105
+msgctxt "asides category slug"
+msgid "asides"
+msgstr "Sidebemærkninger"
+
+#: loop.php:60 loop.php:94
+msgctxt "gallery category slug"
+msgid "gallery"
+msgstr "galleri"
+
+#: functions.php:417
+msgid "Second Footer Widget Area"
+msgstr "Andet footer widget-område"
+
+#: functions.php:406
+msgid "First Footer Widget Area"
+msgstr "Første widget-område i footeren"
+
+#: functions.php:384
+msgid "Primary Widget Area"
+msgstr "Primær widget-område i footeren"
+
+#: functions.php:395
+msgid "Secondary Widget Area"
+msgstr "Sekundære widget-område"
+
+#: functions.php:439
+msgid "Fourth Footer Widget Area"
+msgstr "Fjerde widget-område i footeren"
+
+#: functions.php:428
+msgid "Third Footer Widget Area"
+msgstr "Tredje widget-område i footeren"
+
+#: loop-single.php:22 loop-single.php:62
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: loop-single.php:21 loop-single.php:61
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: functions.php:348 functions.php:365
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: loop.php:98 loop.php:121 loop.php:163
+msgid "% Comments"
+msgstr "% kommentarer"
+
+#: sidebar.php:34
+msgid "Meta"
+msgstr "Meta"
+
+#: sidebar.php:27
+msgid "Archives"
+msgstr "Arkiver"
+
+#: functions.php:341
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: functions.php:348
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: functions.php:187
+msgid "Sunset"
+msgstr "Solnedgang"
+
+#: functions.php:181
+msgid "Path"
+msgstr "Sti"
+
+#: functions.php:175
+msgid "Inkwell"
+msgstr "Blækhus"
+
+#: functions.php:169
+msgid "Forest Floor"
+msgstr "Skovbund"
+
+#: functions.php:163
+msgid "Fern"
+msgstr "Bregner"
+
+#: functions.php:157
+msgid "Concave"
+msgstr "Konkav"
+
+#: functions.php:151
+msgid "Cherry Blossoms"
+msgstr "Kirsebærblomster"
+
+#: functions.php:145
+msgid "Berries"
+msgstr "Bær"
+
+#: footer.php:33
+msgid "Semantic Personal Publishing Platform"
+msgstr "Personlig semantisk publiceringsplatform"
+
+#: header.php:33
+msgid "Page %s"
+msgstr "Side %s"
+
+#: loop.php:98 loop.php:121 loop.php:163
+msgid "1 Comment"
+msgstr "En kommentar"
+
+#: loop.php:98 loop.php:121 loop.php:163
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#: loop.php:92 loop.php:95
+msgid "More Galleries"
+msgstr "Flere gallerier"
+
+#: loop.php:95
+msgid "View posts in the Gallery category"
+msgstr "Vis indlæg i kategorien gallerier"
+
+#: loop.php:82
+msgid "Permalink to %s"
+msgstr "Permalink til %s"
+
+#: loop.php:26 loop.php:178
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere indlæg <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop.php:25 loop.php:177
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ældre indlæg"
+
+#: header.php:101
+msgid "Skip to content"
+msgstr "Hop til indhold"
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Dette indlæg er beskyttet med kodeord. Skriv kodeordet for at se eventuelle kommentarer."
+
+#: category.php:16
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: author.php:37 loop-single.php:43
+msgid "About %s"
+msgstr "Om %s"
+
+#: 404.php:16 loop.php:33
+msgid "Not Found"
+msgstr "Ikke fundet"
+
+#: 404.php:18
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Undskyld, siden kunne ikke findes. Måske kan en søgning hjælpe."
+
+#: archive.php:33
+msgid "Daily Archives: <span>%s</span>"
+msgstr "Dagsarkiv: <span>%s</span>"
+
+#: archive.php:35
+msgid "Monthly Archives: <span>%s</span>"
+msgstr "Månedsarkiv: <span>%s</span>"
+
+#: archive.php:37
+msgid "Yearly Archives: <span>%s</span>"
+msgstr "Årsarkiv: <span>%s</span>"
+
+#: archive.php:39
+msgid "Blog Archives"
+msgstr "Blogarkiv"
+
+#: loop-attachment.php:21
+msgid "Return to %s"
+msgstr "Tilbage til %s"
+
+#: functions.php:484 loop-attachment.php:36
+msgid "View all posts by %s"
+msgstr "Vis alle indlæg af %s"
+
+#: loop-attachment.php:63 loop-attachment.php:111 loop-page.php:30
+#: loop-single.php:56 loop.php:99 loop.php:122 loop.php:164
+msgid "Edit"
+msgstr "Rediger"
+
+#: functions.php:255 loop-attachment.php:104 loop.php:114 loop.php:142
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Læs resten <span class=\"meta-nav\">&rarr;</span>"
+
+#: loop-attachment.php:105 loop-page.php:29 loop-single.php:34 loop.php:143
+msgid "Pages:"
+msgstr "Sider:"
+
+#: tag.php:16
+msgid "Tag Archives: %s"
+msgstr "Tag-arkiv: %s"
+
+msgid "Twenty Ten"
+msgstr "Twenty Ten"
+
+#: footer.php:33
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+msgid "the WordPress team"
+msgstr "holdet bag WordPress"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: search.php:26
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: search.php:28
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Intet matchede dine søgekriterier. Prøv igen med nogle andre søgeord."

@@ -1,0 +1,5 @@
+*** WooDojo Widget Preview Changelog ***
+
+2012.08.20 - version 1.0.1
+ * /classes/widget-preview.class.php - RENAMED to class-woodojo-widget-preview.php. Prevent direct file access.
+ * woodojo-widget-preview.php - Prevent direct file access.

@@ -1,0 +1,99 @@
+*** WooDojo Changelog ***
+2013.02.05 - version 1.5.2
+ * /bundled/woodojo-tab-grouping/classes/class-woodojo-tab-grouping.php - Code Standards. Correctly hook form actions. Fix reload location on edit. Fix nonce name on delete. Correctly handle slug name changes on edit. Make sure the admin styling is loading correctly on this screen, to display the correct screen icon.
+ * /bundled/woodojo-tab-grouping/classes/class-list-table.php - Correct nonce name for edit.
+ 
+2013.01.31 - version 1.5.1
+ * /classes/settings-api.class.php - Added filter for select form input.
+
+2013.01.14 - version 1.5.0
+ * /bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php - Adjust API request to better handle Twitter API errors. Added "retweeted via username" to tweets that are retweets of others.
+ * /classes/transmitter-installer.class.php - REMOVED.
+ * /bundled/woodojo-html-term-description/ - ADDED.
+ * /bundled/woodojo-tab-grouping/ - ADDED.
+ * /assets/screenshots/woodojo-html-term-description-screenshot.png - Added screenshot for the HTML Term Description bundled feature.
+ * /assets/screenshots/woodojo-tab-grouping-screenshot.png - Added screenshot for the Tab Grouping bundled feature.
+ * woodojo.php - Remove the code to require the WooTransmitter installer file.
+
+2012.12.13 - version 1.4.1
+ * /assets/js/tabs-navigation.js - WordPress 3.5 and jQuery 1.8.2 compatibility.
+ * /classes/admin.class.php - Add method scope to methods with no scope.
+ * woodojo.php - Optimised WooDojo initialisation.
+
+2012.12.11 - version 1.4.0
+ * /bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php - Make sure all mentions in a tweet are linked, if the setting is enabled (not just the first mention). Store backup of tweet data in case request fails and transient doesn't exist.
+ * /bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php - Prevent potential "undefined offset" notices when WP_DEBUG is active.
+ * /classes/base.class.php - Make sure the plugin_path property is using the plugin_dir_path() function. Make sure a component is never loaded twice.
+ * /classes/frontend.class.php - Add missing scope to class constructor method.
+ * /classes/model.class.php - Add missing scope to class constructor method.
+ * /assets/screenshots/woodojo-widget-preview-screenshot.png - Adds screenshot for "WooDojo - Widget Preview".
+ * /bundled/woodojo-widget-preview/* - Moves the "WooDojo - Widget Preview" feature to be a bundled feature instead of downloadable.
+
+2012.10.18 - version 1.3.0
+ * /classes/api.class.php - Remove all token and registration functionality.
+ * /classes/model.class.php - Remove calls to api->auth(). Remove username and purchase methods.
+ * /classes/admin.class.php - Load admin.js in the header instead of the footer.
+ * /models/main.class.php - Remove all purchase, login, registration and logout output and logic.
+ * /screens/main/section.php - esc_attr() in the section ID.
+ * /screens/main/component-item.php - Remove purchase check.
+ * /screens/login.php - REMOVED
+ * /screens/register.php - REMOVED
+ * /screens/purchase.php - REMOVED
+ * /models/login.class.php - REMOVED
+ * /models/register.class.php - REMOVED
+ * /models/purchase.class.php - REMOVED
+ * /assets/js/purchase.js - REMOVED
+
+2012.09.19 - version 1.2.4
+ * /classes/woodojo.class.php - Add "add_wootransmitter_key()" method, to run on "plugins_loaded" for WooTransmitter integration, if WooTransmitter is active.
+ * woodojo.php - Remove WooTransmitter integration from this file, in favour of including and loading it in the "WooDojo" class.
+
+2012.09.05 - version 1.2.3
+ * /assets/css/settings.css - Add "#woodojo" prefix to each style relating to the "infobox" fields.
+ * /classes/woodojo.class.php - Add and call load_plugin_textdomain() method to ensure localization file is loaded correctly.
+ * /classes/model.class.php - Make sure to check if a directory exists for the "downloadable" prior to downloading it.
+ * /lang/woodojo-en_GB.po - Rescan language translation file.
+ * /lang/woodojo-xx_XX.pot - Rescan language translation file template.
+
+2012.07.19 - version 1.2.2
+ * /classes/api.class.php - Added a user-agent to wp_remote_post of "WooDojo/{version}" to ensure API reliability.
+ * /screens/main.php - Fixed "Powered by WooThemes" URL, href was broken.
+ * /screens/login.php - Removed "You can use this account to access our public support forums as well" as the forums are no more.
+
+2012.07.17 - version 1.2.1
+ * /classes/transmitter-installer.class.php - Adjust the WooTransmitter installer bridge to display only within the WordPress admin.
+ 
+2012.07.12 - version 1.2.0
+ * /classes/api.class.php - Additional escaping on requests. Replaced use of $_REQUEST with WooDojo_Utils::get_or_post.
+ * /classes/base.class.php - Avoid "invalid argument" in load_active_components() method.
+ * /classes/utils.class.php - Add get_or_post() method. Add "table of contents" docblock.
+ * /classes/model.class.php - Ensure that the "active_components" property is cast as an array before it is used in the is_active_component() method.
+ * /screens/register.php - Add extra check for "redirect_to" and escape the URL before redirecting.
+ * /screens/purchase.php - Add extra checks and sanitization on $component and $component_type variables.
+ * /screens/login.php - Add extra checks and sanitization on $redirect_to, $component and $component_id.
+ * /models/register.class.php - Replace $_REQUEST with checks on $_GET and $_POST. Add scope to functions where scope was not present.
+ * /models/main.class.php - Replace $_REQUEST with checks on $_GET and $_POST. Add missing scope to the constructor.
+ * /wootransmitter/ - REMOVED in favour of a separate WooTransmitter plugin.
+ * /classes/transmitter-installer.class.php - Integrate WooTransmitter bridge, for easy install/activation of the WooTransmitter plugin.
+
+2012.05.31 - version 1.1.2
+ * assets/css/admin.css - Fixed margins for last component in a row
+ * screens/main/section.php - Added clearfix
+
+2012.05.11 - version 1.1.1
+ * /classes/admin.class.php - Additional security tightening (using a whitelist) on the screen and model loading.
+
+2012.04.24 - version 1.1.0
+ * /classes/settings-api.class.php - Added "timestamp" field type, validation for it as well as logic to run a "check" method to make sure the data is as per expected data. Added optional tabbed section navigation for settings screens.
+ * /bundled/woodojo-social-widgets/assets/css/style.css - Adding styling for Instagram widgets.
+ * /bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php - Instagram photo stream widget.
+ * /bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php - Instagram profile widget.
+ * /bundled/woodojo-social-widgets/woodojo-social-widgets.php - Register Instagram widgets.
+ * /assets/js/tabs-navigation.js - Added functionality for tabbed section navigation in the Settings API.
+
+2012.04.12 - version 1.0.1
+ * /classes/utils.class.php - Fix for some servers not seeing past the main "bundled" directory into the subdirectories.
+ * /classes/base.class.php - Additional line to cater for Windows servers not seeing the base plugin path correctly.
+
+2012.04.11 - version 1.0.0
+ * First release!

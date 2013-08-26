@@ -1,0 +1,5 @@
+#woodojo .info-box { background: #F2F2F2; border: 1px solid #CCCCCC; position: relative; left: -230px; padding: 0.1em 1em; margin-bottom: 1em; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
+#woodojo .info-box .title { margin-top: 1em; }
+
+#woodojo .info-box.success { border-color: #E6DB55; background-color: #ffffe0; }
+#woodojo .info-box.error { border-color: #cc0000; background-color: #ffebe8; }

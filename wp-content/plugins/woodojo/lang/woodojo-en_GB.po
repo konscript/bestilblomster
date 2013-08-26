@@ -1,0 +1,1256 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooDojo v1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-09-05 07:54:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:51
+#: bundled/woodojo-custom-code/classes/woodojo-custom-code.class.php:90
+#@ woodojo
+msgid "Custom CSS"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:52
+#@ woodojo
+msgid "Add custom CSS code to your website."
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:57
+#@ woodojo
+msgid "Custom HTML"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:58
+#@ woodojo
+msgid "Add custom HTML code to the &lt;head&gt; section or before the closing &lt;/body&gt; tag on your website."
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:76
+#@ woodojo
+msgid "Enable Custom CSS"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:77
+#@ woodojo
+msgid "Output the custom CSS code on your website."
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:85
+#@ woodojo
+msgid "Custom CSS Code"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:86
+#@ woodojo
+msgid "Output this custom CSS code on your website."
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:97
+#@ woodojo
+msgid "Enable Custom HTML"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:98
+#@ woodojo
+msgid "Output the custom HTML code on your website."
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:106
+#@ woodojo
+msgid "Inside the &lt;head&gt; Tags"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:117
+#@ woodojo
+msgid "Before the closing &lt;/body&gt; Tag"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/woodojo-custom-code.class.php:86
+#@ woodojo
+msgid "WooDojo Custom CSS/HTML"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/woodojo-custom-code.class.php:87
+#@ woodojo
+msgid "Custom CSS/HTML"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/woodojo-custom-code.class.php:89
+#@ woodojo
+msgid "WooDojo Custom CSS"
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:47
+#@ woodojo
+msgid "General Settings"
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:48
+#@ woodojo
+msgid "General login branding settings. If you do not wish to use a specific option, leave the setting blank to disable."
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:65
+#@ woodojo
+msgid "Logo URL"
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:66
+#@ woodojo
+msgid "Change the logo image for the WordPress login page. This is the URL of your logo."
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:74
+#@ woodojo
+msgid "Title Text"
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:75
+#@ woodojo
+msgid "Change the title of the logo image on the WordPress login page."
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:82
+#@ woodojo
+msgid "Logo Image URL"
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/settings.class.php:83
+#@ woodojo
+msgid "Change the URL that the logo image on the WordPress login page links to when clicked on."
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/woodojo-login-branding.class.php:65
+#@ woodojo
+msgid "WooDojo Login Branding"
+msgstr ""
+
+#: bundled/woodojo-login-branding/classes/woodojo-login-branding.class.php:66
+#@ woodojo
+msgid "Login Branding"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:47
+#@ woodojo
+msgid "Main Settings"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:48
+#@ woodojo
+msgid "Main settings and configuration"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:51
+#@ woodojo
+msgid "Bitly Setup"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:52
+#@ woodojo
+msgid "Settings and configuration for Bitly"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:73
+#@ woodojo
+msgid "Service Select"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:74
+#@ woodojo
+msgid "Select the service to use for generating a short url."
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:83
+#@ woodojo
+msgid "Bitly Username"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:84
+#@ woodojo
+msgid "Enter your Bitly username."
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:92
+#@ woodojo
+msgid "Bitly API Key"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/settings.class.php:93
+#@ woodojo
+msgid "Enter your Bitly API Key."
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/woodojo-shortlinks.class.php:49
+#: bundled/woodojo-shortlinks/classes/woodojo-shortlinks.class.php:50
+#: bundled/woodojo-shortlinks/classes/woodojo-shortlinks.class.php:76
+#@ woodojo
+msgid "ShortLinks"
+msgstr ""
+
+#: bundled/woodojo-shortlinks/classes/woodojo-shortlinks.class.php:75
+#@ woodojo
+msgid "WooDojo ShortLinks"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:56
+#@ woodojo
+msgid "This is a WooDojo bundled tweets widget."
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:58
+#@ woodojo
+msgid "WooDojo - Tweets"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:137
+#@ woodojo
+msgid "ago"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:144
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:196
+#, php-format
+#@ woodojo
+msgid "Follow %s on Twitter"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:202
+#@ woodojo
+msgid "Tweets"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:235
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:260
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:218
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:280
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:235
+#@ woodojo
+msgid "Title (optional):"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:223
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:285
+#@ woodojo
+msgid "Twitter Username (required):"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:228
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:250
+#@ woodojo
+msgid "Limit:"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:234
+#@ woodojo
+msgid "Include Retweets"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:239
+#@ woodojo
+msgid "Exclude Replies"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:249
+#@ woodojo
+msgid "Include Follow Link"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:57
+#@ woodojo
+msgid "This is a WooDojo bundled Twitter profile widget."
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:59
+#@ woodojo
+msgid "WooDojo - Twitter Profile"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:176
+#@ woodojo
+msgid "friends"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:180
+#@ woodojo
+msgid "followers"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:184
+#@ woodojo
+msgid "tweets"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:192
+#@ woodojo
+msgid "Tweeting since"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:256
+#@ woodojo
+msgid "Twitter Profile"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:262
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:290
+#@ woothemes
+msgid "Avatar Alignment:"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:264
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:297
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:292
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:244
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:262
+#@ woodojo
+msgid "Left"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:265
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:293
+#@ woodojo
+msgid "Centre"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:266
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:298
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:294
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:245
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:263
+#@ woodojo
+msgid "Right"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:499
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:373
+#@ woodojo
+msgid "Display Avatar"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:500
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:374
+#@ woodojo
+msgid "Display Name"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:501
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:375
+#@ woodojo
+msgid "Display Screen Name"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:502
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:376
+#@ woodojo
+msgid "Display Description"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:377
+#@ woodojo
+msgid "Display Location"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:378
+#@ woodojo
+msgid "Display Tweet Count"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:379
+#@ woodojo
+msgid "Display Followers Count"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:380
+#@ woodojo
+msgid "Display Friends Count"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:381
+#@ woodojo
+msgid "Display \"Tweeting Since\""
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-twitter-profile.php:382
+#@ woodojo
+msgid "Include \"Follow\" Link"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:59
+#@ woodojo
+msgid "This is a WooDojo bundled tabs widget."
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:61
+#@ woodojo
+msgid "WooDojo - Tabs"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:98
+#@ woodojo
+msgid "Latest"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:99
+#@ woodojo
+msgid "Popular"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:100
+#@ woodojo
+msgid "Comments"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:101
+#@ woodojo
+msgid "Tags"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:221
+#@ woodojo
+msgid "Tabs"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:240
+#@ woodojo
+msgid "Tab Position:"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:242
+#@ woodojo
+msgid "Above"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:243
+#@ woodojo
+msgid "Below"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:255
+#@ woodojo
+msgid "Image Dimension:"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:260
+#@ woodojo
+msgid "Image Alignment:"
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:268
+#@ woodojo
+msgid "woo_image() will be used to display thumbnails."
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:271
+#@ woodojo
+msgid "The \"featured image\" will be used as thumbnails."
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:273
+#@ woodojo
+msgid "Post thumbnails are not supported by your theme. Thumbnails will not be displayed."
+msgstr ""
+
+#: bundled/woodojo-tabs/classes/widget-woodojo-tabs.php:392
+#@ woodojo
+msgid "on"
+msgstr ""
+
+#: classes/api.class.php:94
+#@ woodojo
+msgid "WooDojo Request Error"
+msgstr ""
+
+#: classes/base.class.php:82
+#@ woodojo
+msgid "WooDojo"
+msgstr ""
+
+#: classes/model.class.php:199
+#@ woodojo
+msgid "Disabled"
+msgstr ""
+
+#: classes/model.class.php:202
+#@ woodojo
+msgid "Enabled"
+msgstr ""
+
+#: classes/model.class.php:206
+#@ woodojo
+msgid "Not Installed"
+msgstr ""
+
+#: classes/model.class.php:803
+#@ woodojo
+msgid "Message:"
+msgstr ""
+
+#: classes/settings-api.class.php:136
+#@ woodojo
+msgid "Override init_sections() in your class."
+msgstr ""
+
+#: classes/settings-api.class.php:147
+#@ woodojo
+msgid "Override init_fields() in your class."
+msgstr ""
+
+#: classes/settings-api.class.php:548
+#@ woodojo
+msgid "Select Colour"
+msgstr ""
+
+#: classes/settings-api.class.php:553
+#@ woodojo
+msgid "Default colour:"
+msgstr ""
+
+#: classes/settings-api.class.php:817
+#: models/register.class.php:145
+#, php-format
+#@ woodojo
+msgid "%s is a required field"
+msgstr ""
+
+#: classes/settings-api.class.php:828
+#, php-format
+#@ woodojo
+msgid "%s settings updated"
+msgstr ""
+
+#: classes/utils.class.php:35
+#: models/main.class.php:418
+#: screens/main/section.php:7
+#@ woodojo
+msgid "Deactivate"
+msgstr ""
+
+#: classes/utils.class.php:36
+#: models/main.class.php:398
+#@ woodojo
+msgid "Activate"
+msgstr ""
+
+#: classes/utils.class.php:37
+#@ woodojo
+msgid "Deactivated"
+msgstr ""
+
+#: classes/utils.class.php:38
+#@ woodojo
+msgid "Activated"
+msgstr ""
+
+#: classes/utils.class.php:39
+#, php-format
+#@ woodojo
+msgid "%s Activated Successfully"
+msgstr ""
+
+#: classes/utils.class.php:40
+#, php-format
+#@ woodojo
+msgid "%s Deactivated Successfully"
+msgstr ""
+
+#: classes/utils.class.php:41
+#, php-format
+#@ woodojo
+msgid "There was an error activating %s"
+msgstr ""
+
+#: classes/utils.class.php:42
+#, php-format
+#@ woodojo
+msgid "There was an error deactivating %s"
+msgstr ""
+
+#: classes/utils.class.php:43
+#, php-format
+#@ woodojo
+msgid "Are you sure you'd like to update %s?"
+msgstr ""
+
+#: models/login.class.php:101
+#@ woodojo
+msgid "Invalid login. Please try again."
+msgstr ""
+
+#: models/main.class.php:56
+#: models/main.class.php:301
+#@ woodojo
+msgid "Bundled Features"
+msgstr ""
+
+#: models/main.class.php:57
+#@ woodojo
+msgid "Features bundled with WooDojo."
+msgstr ""
+
+#: models/main.class.php:60
+#: models/main.class.php:310
+#@ woodojo
+msgid "Downloadable Features"
+msgstr ""
+
+#: models/main.class.php:61
+#@ woodojo
+msgid "Downloadable features to enhance your website."
+msgstr ""
+
+#: models/main.class.php:64
+#: models/main.class.php:317
+#@ woodojo
+msgid "WordPress Plugins"
+msgstr ""
+
+#: models/main.class.php:65
+#@ woodojo
+msgid "Plugins developed by WooThemes."
+msgstr ""
+
+#: models/main.class.php:138
+#, php-format
+#@ woodojo
+msgid "%s activated successfully."
+msgstr ""
+
+#: models/main.class.php:144
+#, php-format
+#@ woodojo
+msgid "There was an error activating %s. Please try again."
+msgstr ""
+
+#: models/main.class.php:150
+#, php-format
+#@ woodojo
+msgid "%s deactivated successfully."
+msgstr ""
+
+#: models/main.class.php:156
+#, php-format
+#@ woodojo
+msgid "There was an error deactivating %s. Please try again."
+msgstr ""
+
+#: models/main.class.php:163
+#, php-format
+#@ woodojo
+msgid "%s downloaded successfully."
+msgstr ""
+
+#: models/main.class.php:171
+#, php-format
+#@ woodojo
+msgid "There was an error downloading %s. Please try again."
+msgstr ""
+
+#: models/main.class.php:179
+#, php-format
+#@ woodojo
+msgid "%s purchased successfully."
+msgstr ""
+
+#: models/main.class.php:186
+#, php-format
+#@ woodojo
+msgid "There was an error purchasing %s. Please try again."
+msgstr ""
+
+#: models/main.class.php:193
+#@ woodojo
+msgid "Registered successfully."
+msgstr ""
+
+#: models/main.class.php:200
+#, php-format
+#@ woodojo
+msgid "%s upgraded successfully."
+msgstr ""
+
+#: models/main.class.php:208
+#, php-format
+#@ woodojo
+msgid "There was an error upgrading %s. Please try again."
+msgstr ""
+
+#: classes/settings-api.class.php:166
+#: models/main.class.php:229
+#@ woodojo
+msgid "All"
+msgstr ""
+
+#: models/main.class.php:251
+#@ woodojo
+msgid "Updates Available"
+msgstr ""
+
+#: models/main.class.php:295
+#@ woodojo
+msgid "Overview"
+msgstr ""
+
+#: models/main.class.php:297
+#@ woodojo
+msgid "This screen provides an overview of all features available through WooDojo. Features are also enabled, disabled and downloaded here."
+msgstr ""
+
+#: models/main.class.php:303
+#@ woodojo
+msgid "Bundled features are immediately available and come packaged with WooDojo."
+msgstr ""
+
+#: models/main.class.php:305
+#@ woodojo
+msgid "Enabling or disabling a bundled feature can be done instantly. Simply click the \"Enable\" or \"Disable\" button for the desired feature under the \"Bundled Features\" section."
+msgstr ""
+
+#: models/main.class.php:319
+#@ woodojo
+msgid "These are our standalone WordPress plugins, available directly through WooDojo."
+msgstr ""
+
+#: models/main.class.php:320
+#@ woodojo
+msgid "Our existing WordPress plugins include the popular WooCommerce and the new WooSidebars plugin."
+msgstr ""
+
+#: models/main.class.php:322
+#@ woodojo
+msgid "Once a WordPress plugin is downloaded and enabled, it acts the same as any other WordPress plugin and can be activated or deactivated, either from within WooDojo or from the \"Plugins\" screen."
+msgstr ""
+
+#: models/main.class.php:328
+#: screens/login.php:26
+#: screens/login.php:48
+#: screens/main.php:17
+#@ woodojo
+msgid "Login"
+msgstr ""
+
+#: models/main.class.php:330
+#, php-format
+#@ woodojo
+msgid "WooDojo uses your WooThemes.com account to download additional features. WooThemes.com accounts are freely available and can be registered within WooDojo %shere%s."
+msgstr ""
+
+#: models/main.class.php:331
+#, php-format
+#@ woodojo
+msgid "You can login to your WooThemes.com account at any time. If we need to log you in, WooDojo will prompt you for your login information (this usually happens prior to a download). %sLogin to WooDojo%s here."
+msgstr ""
+
+#: models/main.class.php:336
+#@ woodojo
+msgid "Registration"
+msgstr ""
+
+#: models/main.class.php:338
+#, php-format
+#@ woodojo
+msgid "WooDojo uses your WooThemes.com account to download additional features. WooThemes.com accounts are freely available and can be %sregistered within WooDojo%s."
+msgstr ""
+
+#: models/main.class.php:339
+#@ woodojo
+msgid "Your WooThemes.com account can also be used to access our public forums and, if you've purchased with WooThemes, you can access our members only support forums as well."
+msgstr ""
+
+#: models/main.class.php:343
+#@ woodojo
+msgid "For more information:"
+msgstr ""
+
+#: models/main.class.php:345
+#@ woodojo
+msgid "WooDojo Documentation"
+msgstr ""
+
+#: models/main.class.php:438
+#@ woodojo
+msgid "Download & Activate"
+msgstr ""
+
+#: models/main.class.php:473
+#, php-format
+#@ woodojo
+msgid "Purchase - $%s"
+msgstr ""
+
+#: models/register.class.php:118
+#@ woodojo
+msgid "Registration successful."
+msgstr ""
+
+#: models/register.class.php:153
+#@ woodojo
+msgid "Your passwords don't match."
+msgstr ""
+
+#: models/register.class.php:157
+#@ woodojo
+msgid "Please set your password to be seven or more characters."
+msgstr ""
+
+#: models/register.class.php:164
+#@ woodojo
+msgid "Please supply a valid e-mail address"
+msgstr ""
+
+#: models/register.class.php:243
+#: screens/register.php:26
+#@ woodojo
+msgid "First Name"
+msgstr ""
+
+#: models/register.class.php:244
+#: screens/register.php:30
+#@ woodojo
+msgid "Last Name"
+msgstr ""
+
+#: models/register.class.php:245
+#: screens/register.php:40
+#@ woodojo
+msgid "Username"
+msgstr ""
+
+#: models/register.class.php:246
+#: screens/register.php:44
+#@ woodojo
+msgid "E-mail Address"
+msgstr ""
+
+#: models/register.class.php:247
+#: screens/register.php:54
+#@ woodojo
+msgid "Password"
+msgstr ""
+
+#: models/register.class.php:248
+#@ woodojo
+msgid "Password Repeat"
+msgstr ""
+
+#: models/register.class.php:249
+#@ woodojo
+msgid "Component"
+msgstr ""
+
+#: models/register.class.php:250
+#@ woodojo
+msgid "Component ID"
+msgstr ""
+
+#: screens/login.php:27
+#: screens/main.php:19
+#: screens/purchase.php:38
+#: screens/register.php:18
+#: screens/settings-api.php:11
+#@ woodojo
+msgid "Powered by"
+msgstr ""
+
+#: screens/login.php:29
+#, php-format
+#@ woodojo
+msgid "If you don't have a free WooThemes.com account, %sclick here to register%s."
+msgstr ""
+
+#: screens/login.php:35
+#@ woodojo
+msgid "WooThemes Username"
+msgstr ""
+
+#: screens/login.php:39
+#@ woodojo
+msgid "WooThemes Password"
+msgstr ""
+
+#: screens/login.php:49
+#: screens/main.php:17
+#: screens/register.php:17
+#: screens/register.php:69
+#@ woodojo
+msgid "Register"
+msgstr ""
+
+#: screens/main/component-item.php:43
+#, php-format
+#@ woodojo
+msgid "Update to v%s"
+msgstr ""
+
+#: screens/main/component-item.php:64
+#@ woodojo
+msgid "More Information"
+msgstr ""
+
+#: screens/main/component-item.php:64
+#@ woodojo
+msgid "More Information &rarr;"
+msgstr ""
+
+#: screens/main/component-item.php:79
+#@ woodojo
+msgid "Settings"
+msgstr ""
+
+#: screens/main/component-item.php:84
+#@ woodojo
+msgid "Loading"
+msgstr ""
+
+#: screens/main.php:15
+#, php-format
+#@ woodojo
+msgid "Logged in as: %s"
+msgstr ""
+
+#: screens/main.php:15
+#@ woodojo
+msgid "Logout"
+msgstr ""
+
+#: screens/main.php:17
+#, php-format
+#@ woodojo
+msgid "Not currently logged in. %s | %s"
+msgstr ""
+
+#: screens/main.php:20
+#@ woodojo
+msgid "WooDojo is a powerful toolkit of features to enhance your website. Select only the functionality that you need, without unnecessary code. Enhance your website with WooDojo, today."
+msgstr ""
+
+#: screens/main.php:25
+#@ woodojo
+msgid "Open All"
+msgstr ""
+
+#: screens/main.php:26
+#@ woodojo
+msgid "Close All"
+msgstr ""
+
+#: screens/more-information.php:12
+#@ woodojo
+msgid "Description"
+msgstr ""
+
+#: screens/more-information.php:18
+#@ woodojo
+msgid "Screenshots"
+msgstr ""
+
+#: screens/purchase.php:37
+#, php-format
+#@ woodojo
+msgid "Purchase %s"
+msgstr ""
+
+#: screens/purchase.php:43
+#, php-format
+#@ woodojo
+msgid "You have already purchased %s. Please %sclick here to download and activate%s."
+msgstr ""
+
+#: screens/purchase.php:44
+#: screens/purchase.php:47
+#@ woodojo
+msgid "Return to WooDojo"
+msgstr ""
+
+#: screens/purchase.php:44
+#: screens/purchase.php:47
+#@ woodojo
+msgid "&larr; Return to WooDojo"
+msgstr ""
+
+#: screens/purchase.php:46
+#, php-format
+#@ woodojo
+msgid "If the checkout window doesn't open automatically, please %sclick here%s."
+msgstr ""
+
+#: screens/register.php:19
+#@ woodojo
+msgid "Register a free WooThemes.com account to download additional features within WooDojo. You can use this account to access our public support forums as well."
+msgstr ""
+
+#: screens/register.php:20
+#, php-format
+#@ woodojo
+msgid "If you already have a WooThemes.com account, %sclick here to login%s."
+msgstr ""
+
+#: screens/register.php:54
+#@ woodojo
+msgid "(twice, required)"
+msgstr ""
+
+#: screens/register.php:59
+#@ woodojo
+msgid "Strength indicator"
+msgstr ""
+
+#: screens/register.php:60
+#@ woodojo
+msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr ""
+
+#: screens/register.php:70
+#@ woodojo
+msgid "I'm already registered"
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:107
+#@ woodojo
+msgid "Output custom HTML code inside the &lt;head&gt; tags of your website (JavaScript is not permitted)."
+msgstr ""
+
+#: bundled/woodojo-custom-code/classes/settings.class.php:118
+#@ woodojo
+msgid "Output custom HTML code before the closing &lt;/body&gt; tag of your website (JavaScript is not permitted)."
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:66
+#@ woodojo
+msgid "This is a WooDojo bundled Instagram profile widget."
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:68
+#@ woodojo
+msgid "WooDojo - Instagram Profile"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:210
+#@ woodojo
+msgid "Instagram Profile"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:243
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:268
+#@ woodojo
+msgid "Username (required):"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:248
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:273
+#@ woodojo
+msgid "Password (required):"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:277
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:328
+#, php-format
+#@ woodojo
+msgid "Currently logged in as %s."
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:282
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:333
+#@ woodojo
+msgid "Logout?"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:470
+#@ woodojo
+msgid "Media"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:474
+#@ woodojo
+msgid "Followed By"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:478
+#@ woodojo
+msgid "Follows"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:503
+#@ woodojo
+msgid "Display Website"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:504
+#@ woodojo
+msgid "Display Media Count"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:505
+#@ woodojo
+msgid "Display Followed By Count"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram-profile.php:506
+#@ woodojo
+msgid "Display Follows Count"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:71
+#@ woodojo
+msgid "This is a WooDojo bundled Instagram stream widget."
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:73
+#@ woodojo
+msgid "WooDojo - Instagram"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:238
+#@ woodojo
+msgid "Instagram"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:289
+#@ woodojo
+msgid "Limit (default: 5):"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:294
+#@ woodojo
+msgid "Float Images:"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:296
+#@ woodojo
+msgid "None"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:303
+#@ woodojo
+msgid "Image Size:"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:305
+#@ woodojo
+msgid "Thumbnail (150x150)"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:306
+#@ woodojo
+msgid "Low Resolution (306x306)"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:307
+#@ woodojo
+msgid "Standard Resolution (612x612)"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:312
+#@ woodojo
+msgid "Custom Image Size (max: 612):"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:313
+#@ woodojo
+msgid "px"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:323
+#@ woodojo
+msgid "Requires the \"Link to full size image\" option"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:522
+#, php-format
+#@ woodojo
+msgid "Instagram by %s"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:562
+#@ woodojo
+msgid "Link to full size image"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-instagram.php:563
+#@ woodojo
+msgid "Enable thickbox"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:129
+#, php-format
+#@ woodojo
+msgid "@%s on Twitter"
+msgstr ""
+
+#: bundled/woodojo-social-widgets/widgets/widget-woodojo-tweets.php:244
+#@ woodojo
+msgid "Link @mentions"
+msgstr ""
+
+#. translators: 1: month input, 2: day input, 3: year input, 4: hour input, 5: minute input
+#: classes/settings-api.class.php:926
+#, php-format
+#@ default
+msgid "%1$s%2$s, %3$s @ %4$s : %5$s"
+msgstr ""
+
+#: classes/transmitter-installer.class.php:58
+#@ wootransmitter
+msgid "Off"
+msgstr ""
+
+#: classes/transmitter-installer.class.php:61
+#@ wootransmitter
+msgid "Notifications are disabled."
+msgstr ""
+
+#: classes/transmitter-installer.class.php:64
+#@ wootransmitter
+msgid "Activate WooTransmitter?"
+msgstr ""
+
+#: classes/transmitter-installer.class.php:64
+#: classes/transmitter-installer.class.php:66
+#@ wootransmitter
+msgid "Hide Forever?"
+msgstr ""
+
+#: classes/transmitter-installer.class.php:66
+#@ wootransmitter
+msgid "Install WooTransmitter?"
+msgstr ""
+
+#: classes/transmitter-installer.class.php:123
+#@ wootransmitter
+msgid "WooTransmitter"
+msgstr ""
+
+#: models/main.class.php:312
+#@ woodojo
+msgid "Downloadable features are downloaded from WooThemes.com and made available within WooDojo."
+msgstr ""
+
+#: models/main.class.php:313
+#, php-format
+#@ woodojo
+msgid "Downloading features requires a freely available WooThemes.com account. If you don't have one, you can sign up for a WooThemes.com account %shere%s."
+msgstr ""
+
+#: models/main.class.php:344
+#@ woodojo
+msgid "Support Desk"
+msgstr ""
+
+#: screens/login.php:28
+#@ woodojo
+msgid "Login with your WooThemes.com account to download additional features within WooDojo."
+msgstr ""
+

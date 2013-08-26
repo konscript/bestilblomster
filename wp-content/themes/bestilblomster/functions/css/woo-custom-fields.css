@@ -1,0 +1,106 @@
+/*-------------------------------------------------------------------------------------
+
+TABLE OF CONTENTS
+
+0. Tab Styling
+0.1 Tab Icons
+1. General Field Styling
+2. Fields Table Layout
+3. "Image" Selectors
+4. "DatePicker" Fields
+5. "Upload" Fields
+6. "Timestamp" Fields
+
+-------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* 0. Tab Styling */
+/*-----------------------------------------------------------------------------------*/
+
+.wooframework-tabs, 
+#woothemes-settings .ui-tabs.ui-widget-content, 
+#woothemes-settings .ui-tabs-panel.ui-widget-content, 
+#woothemes-settings .ui-tabs .ui-state-default, 
+#woothemes-settings .ui-tabs .ui-widget-content .ui-state-default { border: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+.wooframework-tabs .ui-tabs-nav li { display: inline; margin: 5px 0; padding: 5px; }
+#woothemes-settings .ui-tabs-hide { display: none !important; }
+#woothemes-settings .wooframework-tabs .ui-tabs-nav { background:#eaeaea;padding:3px 9px 0;margin:0;overflow:hidden;zoom:1;line-height:1em;-webkit-box-shadow:inset 0 -1px 0 0 #d5d5d5;-moz-box-shadow:inset 0 -1px 0 0 x #d5d5d5;box-shadow:inset 0 -1px 0 0 #d5d5d5; }
+.wooframework-tabs .ui-tabs-nav li { float:left;padding:0;margin:0 5px 0 0; }
+.wooframework-tabs .ui-tabs-nav li a { padding:0;margin:0;border:0;border:1px solid #d5d5d5;border-bottom:0;float:left;padding:9px 9px;text-decoration:none;color:#555;-moz-border-radius-topleft:3px;-moz-border-radius-topright:3px;-webkit-border-top-left-radius:3px;-webkit-border-top-right-radius:3px;border-top-left-radius:3px;border-top-right-radius:3px;-webkit-box-shadow:inset 0 1px 0 1px rgba(255, 255, 255, 0.5);-moz-box-shadow:inset 0 1px 0 1px rgba(255, 255, 255, 0.5);box-shadow:inset 0 1px 0 1px rgba(255, 255, 255, 0.5); }
+.wooframework-tabs .ui-tabs-nav li.ui-state-active {}
+#woothemes-settings .wooframework-tabs .ui-tabs-nav li.ui-state-active a { background-color:#F8F8F8;color:#555; }
+#woothemes-settings.postbox .inside, .ui-tabs .ui-widget-content { background: #F8F8F8; padding: 0; margin: 0; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 0.1 Tab Icons */
+/*-----------------------------------------------------------------------------------*/
+
+#woothemes-settings .wooframework-tabs .tabber li a { background-image: url(../images/wf-tab-icons.png); background-color: #ececec; background-repeat: no-repeat; background-position: 9px 9px; }
+#woothemes-settings .wooframework-tabs .tabber li.wf-tab-general a { background-position: 9px 9px; padding-left: 30px; }
+#woothemes-settings .wooframework-tabs .tabber li.wf-tab-seo a { background-position: -289px -40px; padding-left: 30px; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 1. General Field Styling */
+/*-----------------------------------------------------------------------------------*/
+
+.woo_input_text { margin: 0 0 10px 0; background: #f4f4f4; color: #444; width: 80%; font-size: 11px; padding: 5px; }
+.woo_input_select { margin: 0 0 10px 0; background: #f4f4f4; color: #444; width: 60%; font-size: 11px; padding: 5px; }
+.woo_input_checkbox { margin: 0 10px 0 0; }
+.woo_input_radio { margin: 0 10px 0 0; }
+.woo_input_radio_desc { font-size: 12px; color: #666; }
+.woo_input_calendar { margin: 0 0 10px 0; }
+.woo_input_textarea { width: 80%; height: 120px; margin: 0 0 10px 0; background: #f0f0f0; color: #444;font-size: 11px; padding: 5px; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 2. Fields Table Layout */
+/*-----------------------------------------------------------------------------------*/
+
+.woo_spacer { display: block; height: 5px; }
+.woo_metabox_desc { font-size: 10px; color: #aaa; display: block; }
+.woo_metaboxes_table{ border-collapse: collapse; width: 100%; }
+.woo_metaboxes_table th { font-size: 12px; font-family: sans-serif; color: #222222; }
+.woo_metaboxes_table th,
+.woo_metaboxes_table td { border-bottom: 1px solid #ddd; padding: 10px 10px; text-align: left; vertical-align: top; }
+.woo_metaboxes_table .last th, .woo_metaboxes_table .last td { border: 0; }
+.woo_metabox_names { width: 20%; }
+.woo_metabox_fields { width: 70%; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 3. "Image" Selectors */
+/*-----------------------------------------------------------------------------------*/
+
+.woo-meta-radio-img-img { border: 3px solid #dedede; margin: 0 5px 10px 0; display: none; cursor: pointer; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.woo-meta-radio-img-img:hover, .woo-meta-radio-img-selected { border: 3px solid #aaa; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.woo-meta-radio-img-label { font-size: 12px; }
+.woo_metabox_desc span.counter { color: green !important; }
+.woo_metabox_image { text-align: right; }
+.woo_red_note { margin-left: 5px; color: #c77; font-size: 10px; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 4. "DatePicker" Fields */
+/*-----------------------------------------------------------------------------------*/
+
+.woo-field-type-calendar img.ui-datepicker-trigger { margin: 0 0 0 5px; top: 3px; position: relative; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 5. "Upload" Fields */
+/*-----------------------------------------------------------------------------------*/
+
+.woo_metabox_fields .controls input.upload { width: 280px; padding-bottom: 6px; }
+.woo_metabox_fields .controls input.upload_button { float: right; width: auto; border-color: #BBBBBB; cursor: pointer; height: 16px; }
+.woo_metabox_fields .controls input.upload_button:hover { width: auto; border-color: #666666; color: #000; }
+.woo_metabox_fields .screenshot { margin: 10px 0; float: left; margin-left: 1px; position: relative; width: 344px; }
+.woo_metabox_fields .screenshot img { -moz-border-radius: 4px; -webkit-border-radius: 4px; -border-radius: 4px; background: #FAFAFA; float: left; max-width: 334px; border-color: #CCC #EEE #EEE #CCC; border-style: solid; border-width: 1px; padding: 4px; }
+.woo_metabox_fields .screenshot .mlu_remove{ background: url( '../images/ico-delete.png' ) no-repeat scroll 0 0 transparent; border: medium none; bottom: -4px; display: block; float: left; height: 16px; position: absolute; left: -4px; text-indent: -9999px; width: 16px; padding: 0; }
+.woo_metabox_fields .upload { background: none repeat scroll 0 0 #F4F4F4; color: #444444; font-size: 11px; margin: 0 0 10px; padding: 5px; width: 70%; }
+.woo_metabox_fields .upload_button { -moz-border-radius: 4px; -webkit-border-radius: 4px;-border-radius: 4px; }
+.woo_metabox_fields .screenshot .no_image .file_link { margin-left: 20px; }
+.woo_metabox_fields .screenshot .no_image .mlu_remove { bottom: 0px; }
+
+/*-----------------------------------------------------------------------------------*/
+/* 6. "Timestamp" Fields */
+/*-----------------------------------------------------------------------------------*/
+
+.woo-field-type-timestamp img.ui-datepicker-trigger { margin: 0 0 0 5px; top: 6px; right: 6px; position: relative; float: left; }
+.woo-field-type-timestamp .woo_metabox_desc { margin-top: 5px; }
+.woo-field-type-timestamp .woo-timestamp-at { position: relative; top: 2px; }

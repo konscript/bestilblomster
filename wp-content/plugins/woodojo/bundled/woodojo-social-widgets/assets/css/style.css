@@ -1,0 +1,34 @@
+/* Twitter Profile Widget */
+.widget_woodojo_twitterprofile .alignleft  { float: left; margin: 0 10px 10px 0; }
+.widget_woodojo_twitterprofile .alignright  { float: right; margin: 0 0 10px 10px; }
+.widget_woodojo_twitterprofile .aligncentre  { display: block; margin: 0 auto 10px; }
+.widget_woodojo_twitterprofile h4  { font-weight: bold; }
+.widget_woodojo_twitterprofile .stats  { display: table; width: 100%; margin: 0 0 1.3em; }
+.widget_woodojo_twitterprofile .stat { display: table-cell; }
+.widget_woodojo_twitterprofile .stat .number { display: block; font-weight: bold; font-size: 2em; text-align: center; }
+.widget_woodojo_twitterprofile .stat .stat-label { display: block; text-align: center; text-transform: uppercase; font-size: 11px; }
+.widget_woodojo_twitterprofile .tweeting-since { margin: 3px 0 0; padding: 3px 0 3px; text-align: center; background: #e3e3e3; }
+.widget_woodojo_twitterprofile .follow-link  { margin: 10px 0 0; text-align: center; }
+
+/* Twitter Tweets Widget */
+.widget_woodojo_tweets ul  { margin: 0; padding: 0; }
+.widget_woodojo_tweets ul li  { margin: 0 0 1em; padding: 0 0 1em; border-bottom: 1px solid #e3e3e3; list-style: none; }
+.widget_woodojo_tweets ul li:last-child  { margin: 0; }
+.widget_woodojo_tweets ul li a  { padding: 0; }
+.widget_woodojo_tweets .follow-link  { margin: 10px 0 0; text-align: center; }
+
+/* Instagram Widget */
+.widget_woodojo_instagram ul  { margin: 0; padding: 0; overflow: hidden; }
+.widget_woodojo_instagram ul li  { margin: 0; margin-bottom: 1em; padding: 0; display: block; overflow: hidden; list-style: none; }
+.widget_woodojo_instagram ul.alignleft li { float: left; margin: 0 1em 1em 0; }
+.widget_woodojo_instagram ul.alignright li { float: right; margin: 0 0 1em 1em; }
+.widget_woodojo_instagram ul li a  { padding: 0; margin: 0; }
+
+.widget_woodojo_instagram_profile .profile-box img { width: 50px; height: 50px; }
+.widget_woodojo_instagram_profile .profile-box img.alignleft { float: left; margin: 0 10px 10px 0; }
+.widget_woodojo_instagram_profile .profile-box img.alignright { float: right; margin: 0 0 10px 10px; }
+.widget_woodojo_instagram_profile .profile-box .title { margin: 0; padding: 0; border: 0; background: none; }
+.widget_woodojo_instagram_profile .profile-box .stats  { display: table; width: 100%; margin: 0 0 1.3em; }
+.widget_woodojo_instagram_profile .profile-box .stat { display: table-cell; }
+.widget_woodojo_instagram_profile .profile-box .stat .number { display: block; font-weight: bold; font-size: 2em; text-align: center; }
+.widget_woodojo_instagram_profile .profile-box .stat .stat-label { display: block; text-align: center; text-transform: uppercase; font-size: 11px; }

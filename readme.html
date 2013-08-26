@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>WordPress &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+</head>
+<body>
+<h1 id="logo">
+	<a href="http://wordpress.org/"><img alt="WordPress" src="wp-admin/images/wordpress-logo.png" width="250" height="68" /></a>
+	<br /> 	Version 3.6
+</h1>
+<p style="text-align: center">Semantisk personlig udgivelsesplatform</p>
+
+<h1>F&oslash;rst det f&oslash;rste</h1>
+<p>Velkommen. WordPress er et meget specielt projekt for mig. Enhver udvikler og bidragyder tilf&oslash;rer noget unikt, og sammen kan vi udvikle noget smukt, som jeg er stolt af at v&aelig;re en del af. Tusinder af timer er blevet investeret i WordPress, og vi arbejder for at g&oslash;re det bedre hver dag. Tak for at du lader det blive en del af din verden ogs&aring;.</p>
+<p style="text-align: right;">&#8212; Matt Mullenweg</p>
+
+<h1>Installering: Den ber&oslash;mte 5-minutters installering</h1>
+<ol>
+	<li>Pak filen ud og upload det hele.</li>
+	<li>Åbn <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> i din browser. Du vil derefter blive hjulpet gennem processen, der vil klargøre <code>wp-config.php</code> filen med oplysningerne vedr. forbindelsen til din  database.
+	  <ol>
+          <li>Hvis dette  af en eller an grund ikke virker, så bliv ikke nervøs. Det virker ikke på alle webhoteller. Åbn  <code>wp-config-sample.php</code> med en tekst-editor, såsom WordPad eller Notesblok og udfyld oplysningerne vedr. forbindelsen til din  database.</li>
+	    <li>Gem filen som  <code>wp-config.php</code> og upload den.</li>
+	    <li>Åbn <span class="file"><a href="wp-admin/install.php">wp-admin/install.php</a></span> i din browser.</li>
+      </ol>
+  </li>
+	<li>Når konfigurationsfilen er klargjort, så vil installeringsprogrammet oprette de tabeller  som din blog skal bruge. Hvis der kommer en fejlmeddelelse, så tjek <code>wp-config.php</code> filen en ekstra gang og prøv igen. Hvis det stadig driller, så prøv <a href="http://wordpress.org/support/" title="WordPress support">support forummerne</a> med så mange oplysninger som muligt. Du kan også prøve <a href="http://wordpress.dk/forum/">det danske forum</a>.</li>
+	<li><strong>Hvis du ikke skrev et kodeord, så nedskriv/husk/gem det udleverede kodeord.</strong> Hvis du ikke skrev et brugernavn, så er brugernavnet <code>admin</code>.</li>
+	<li>Installeringsprogrammet burde sende dig til  <a href="wp-login.php">login-siden</a>. Log ind med brugernavnet og kodeordet fra installeringen. Hvis du bruger det genererede kodeord, kan du klikke på Brugere &gt; Din profil og ændre kodeordet.</li>
+	</ol>
+
+<h1>Opdatering</h1>
+<p>F&oslash;r du opdaterer noget, skal du s&oslash;rge for at lave backups af alle filer, du har lavet om p&aring; - s&aring;som <code>index.php</code>.<br />
+</p>
+<h2>Brug af automatisk opdatering</h2>
+<p>Hvis du opgraderer fra version 2.7 eller højere, kan du bruge Automatisk Opdatering:</p>
+<ol>
+  <li>Åbn <span class="file"><a href="wp-admin/update-core.php">wp-admin/update-core.php</a></span> i din browser og følg vejledningen.</li>
+  <li>Du forventede måske mere? Desværre, det er det hele!</li>
+</ol>
+<h2>Manuel opdatering</h2>
+<ol>
+	<li>Før du opdaterer noget, så vær helt sikker på, at du har taget backup af de filer, som du har ændret.</li>
+	<li>Slet de gamle WordPress-filer, men ikke dem, du har ændret.</li>
+	<li>Upload de nye filer.</li>
+	<li>Gå ind på din side og tilføj dette til url'en: <span class="file"><a href="wp-admin/upgrade.php">/wp-admin/upgrade.php</a>.</span></li>
+	</ol>
+<h2>Skabelon&aelig;ndringer</h2>
+<p>Hvis du har tilpasset dine skabeloner, er du sikkert n&oslash;dt til at lave nogle &aelig;ndringer. Hvis du vil overf&oslash;re dine skabeloner fra 1.2 eller tidligere, har vi lavet <a href="http://codex.wordpress.org/Upgrade_1.2_to_1.5">en speciel lille guide til dig (engelsk)</a>. </p>
+
+<h1>Opdatering fra en andet system</h1>
+<p>WordPress kan <a href="http://codex.wordpress.org/Importing_Content">importere fra en r&aelig;kke andre systemer</a>. F&oslash;rst skal du dog installere WordPress som beskrevet ovenfor.<br />
+</p>
+<h1>Minimumkrav</h1>
+<ul>
+  <li>PHP version <strong>5.2.4</strong> eller h&oslash;jere.</li>
+  <li>MySQL version <strong>5.0</strong> eller h&oslash;jere.  <br />
+  </li>
+</ul>
+<h1>Minimums anbefalinger</h1>
+<ul>
+  <li><a href="http://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a> Apache modulet.</li>
+  <li>Et link til <a href="http://wordpress.org/">http://wordpress.org</a> på din side.</li>
+</ul>
+<h1>Online ressourcer</h1>
+<p>Hvis du har sp&oslash;rgsm&aring;l, som ikke er omtalt i dette dokument, kan du udnytte WordPress' mange online ressourcer:</p>
+<dl>
+	<dt><a href="http://codex.wordpress.org/">WordPress Codex</a></dt>
+	<dd>WordPress Codex er det der kommer t&aelig;ttest p&aring; en WordPress encyklop&aelig;di. Det er den mest udf&oslash;rlige informationskilde om WordPress, der findes. </dd>
+	<dt><a href="http://wordpress.org/development/">The Development Blog</a></dt>
+	<dd>Her finder du nyheder om de seneste udviklinger i forbindelse med WordPress. Tilf&oslash;j den til dine bogm&aelig;rker og kig forbi s&aring; tit som muligt.</dd>
+	<dt><a href="http://planet.wordpress.org/">WordPress Planet</a></dt>
+	<dd>The WordPress Planet er en nyhedssamler, der indhenter indl&aelig;g fra WordPress-blogs fra hele verden.</dd>
+	<dt><a href="http://wordpress.org/support/">WordPress Supportforums</a></dt>
+	<dd>Hvis du har s&oslash;gt overalt, men stadig ikke fundet svarene p&aring; dine sp&oslash;rgsm&aring;l, kan du med fordel benytte dig af forumet. WordPress' forum har mange aktive brugere, som er klar til at hj&aelig;lpe. For at hj&aelig;lpe dem til at hj&aelig;lpe dig, b&oslash;r du finde en meget pr&aelig;cis titel til dit indl&aelig;g og beskrive dit problem s&aring; udf&oslash;rligt som muligt.</dd>
+		<dt><a href="http://wordpress.dk/">WordPress DK</a></dt>
+	<dd>Hvis du hellere vil tage snakken p&aring; dansk, kan du kigge forbi den danske WordPress-side. Der er ikke s&aring; mange til at hj&aelig;lpe som p&aring; den engelske side, men det foreg&aring;r p&aring; dansk og med andre, der bruger den danske version!</dd>
+	<dt><a href="http://codex.wordpress.org/IRC">WordPress IRC Channel</a></dt>
+	<dd>Til sidst er der en online chat-kanal, som bliver brugt til diskussioner mellem WordPress-brugere - og nogle gange bliver der ogs&aring; snakket om diverse support-emner. Den ovenst&aring;ende wiki burde f&oslash;re dig p&aring; rette vej (irc.freenode.net #wordpresss).</dd>
+</dl>
+
+<h1>XML-RPC and Atom-interface</h1>
+<p>Du kan nu skrive indl&aelig;g til din WordPress-blog med v&aelig;rkt&oslash;jer som <a href="http://windowslivewriter.spaces.live.com/">Windows Live Writer</a>, <a href="http://ecto.kung-foo.tv/">Ecto</a>, <a href="http://bloggar.com/">Bloggar</a>, <a href="http://radio.userland.com">Radio Userland</a> (det vil sige, at du kan bruge Radios e-mail-til-blog-mulighed), <a href="http://www.newzcrawler.com/">NewzCrawler</a> og andre v&aelig;rkt&oslash;jer, der underst&oslash;tter Blogging API'erne! :) Du kan l&aelig;se mere om <a href="http://codex.wordpress.org/XML-RPC_Support">XML-RPC-support i codexet</a>.</p>
+
+<h1>Skriv via e-mail</h1>
+<p>Du kan skrive indl&aelig;g fra en e-mail-klient! Ops&aelig;tningen er rimelig simpel. G&aring; til &quot;Skrivning&quot; under menupunktet &quot;Indstillinger&quot; og udfyld detaljerne for din hemmelige pop3-konto. Derefter skal du ops&aelig;tte <code>wp-mail.php</code> til j&aelig;vnligt at tjekke din e-mail-konto for nye indl&aelig;g. Du kan g&oslash;re det med cron-jobs, eller hvis din host ikke underst&oslash;tter det, kan du kigge p&aring; de mange forskellige website-monitoring services, og f&aring; dem til at tjekke din <code>wp-mail.php</code>-URL. </p>
+<p>Det er nemt: Enhver e-mail, der bliver sendt til den adresse, du angiver, vil blive bragt som et indl&aelig;g i din blog med e-mailens emne som titel. Derfor er det bedst at holde e-mail-adressen hemmelig. Scriptet vil <i>slette</i> e-mails, der bliver udgivet p&aring; bloggen.</p>
+
+<h1>Brugerroller</h1>
+<p>Vi har droppet brugerniveauer for i stedet at benytte det meget mere fleksible system med roller, som introduceredes in 2.0. Du kan <a href="http://codex.wordpress.org/Roles_and_Capabilities">l&aelig;se mere om roller i WordPress Codex</a>.</p>
+
+<h1>Afsluttende bem&aelig;rkninger</h1>
+<ul>
+	<li>Hvis du har foreslag, id&eacute;er, kommentarer eller hvis du (glup!) har fundet en bug, kan du tilslutte dig vores <a href="http://wordpress.org/support/">Supportforum</a></li>
+	<li>WordPress har et robust plugin API, som g&oslash;r det nemt at tilf&oslash;je kode. Hvis du er en udvikler, der er interesseret i at g&oslash;re brug af dette, kan du kigge i <a href="http://codex.wordpress.org/Plugin_API">plugin-dokumentationen i vores Codex</a>. I de fleste tilf&aelig;lde vil det ikke v&aelig;re n&oslash;dvendigt at lave om p&aring; kernen af WordPress.</li>
+</ul>
+
+<h1>Spred k&aelig;rligheden</h1>
+<p>WordPress har hverken en marketingskampagne til mange millioner eller kendte sponsorer. Men vi har noget, der er endnu bedre &#8212; dig. Hvis du er glad for WordPress, m&aring; du meget gerne opfordre en ven til ogs&aring; at bruge det. Du kan eventuelt installere det for en ven, der ikke ved helt s&aring; meget som dig. En anden m&aring;de at hj&aelig;lpe p&aring;, ville fx v&aelig;re at skrive til en mediejournalist, der g&aring;r og overser os.<br />
+  <br />
+WordPress er den officielle videreudvikling af <a href="http://cafelog.com/">b2/caf&#233;log</a>, der blev skabt af Michel V. Udviklingen fortsættes af  <a href="http://wordpress.org/about/">WordPress udviklerne</a>. Hvis du ønsker at støtte  WordPress, så overvej en  <a href="http://wordpress.org/donate/" title="Donate to WordPress">donation</a>.</p>
+
+<h1>Rettigheder</h1>
+<p>WordPress er udgivet under <abbr title="GNU Public License">GPL</abbr>. Den juridisk bindende licens, <a href="license.txt">license.txt</a>, er p&aring; engelsk, men den ikke-bindende <a href="licens.html">danske version</a> kan muligvis hj&aelig;lpe dig med at f&aring; et bedre overblik.</p>
+
+</body>
+</html>

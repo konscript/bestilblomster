@@ -1,0 +1,11 @@
+*** HTML Term Description Changelog ***
+
+2012.08.20 - version 1.0.2
+ * /classes/class-woodojo-html-term-description.php - Prevent direct file access.
+ * woodojo-html-term-description.php - Prevent direct file access.
+
+2012.07.13 - version 1.0.1
+ * /classes/class-woodojo-html-term-description.php - Make sure the WYSIWYG registration hooks fire on init, to add support for taxonomies registered by plugins.
+
+2012.05.23 - version 1.0.0
+ * First release!

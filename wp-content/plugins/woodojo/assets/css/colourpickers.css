@@ -1,0 +1,2 @@
+.picker-div { z-index: 100; background: #eee; border: 1px solid #ccc; position: absolute; display: none; }
+.default-colour-example { display: inline-block; zoom: 1; width: 10px; height: 10px; margin-left: 5px; position: relative; top: 1px; text-indent: -99999px; }

@@ -1,0 +1,308 @@
+# Translation of Twenty Twelve in Danish
+# This file is distributed under the same license as the Twenty Twelve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-08-02 20:08:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Twenty Twelve\n"
+
+msgid "http://wordpress.org/themes/twentytwelve"
+msgstr "http://wordpress.org/themes/twentytwelve"
+
+#: functions.php:345
+msgid "Reply"
+msgstr "Svar"
+
+#: image.php:26
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Udgivet den </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> i </span>, <a href=\"%3$s\" title=\"Link til billede i fuld opløsning\">%4$s &times; %5$s</a> i <a href=\"%6$s\" title=\"Tilbage til %7$s\" rel=\"gallery\">%8$s</a>"
+
+msgid "The 2012 theme for WordPress is a fully responsive theme that looks great on any device. Features include a front page template with its own widgets, an optional display font, styling for post formats on both index and single views, and an optional no-sidebar page template. Make it yours with a custom menu, header image, and background."
+msgstr "2012 temaet til WordPress er et fuldt responsivt tema, som ser godt ud på enhver enhed. Funktioner inkluderer en forsideskabelon med egne widgets, en valgfri skærm-skrifttype, design af indlægsformater både i oversigten og de individuelle visninger og en valgfri sideskabelon uden sidebar. Gør det til dit eget med en brugerdefineret menu, header billede, og baggrund."
+
+#: functions.php:100
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:105
+msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:240
+msgid "Appears on posts and pages except the optional Front Page template, which has its own widgets"
+msgstr "Vises på indlæg og sider undtagen den valgfrie forsideskabelon, som har sine egne widgets"
+
+#: functions.php:248
+msgid "First Front Page Widget Area"
+msgstr "Første widget-område på forsiden"
+
+#: functions.php:250 functions.php:260
+msgid "Appears when using the optional Front Page template with a page set as Static Front Page"
+msgstr "Vises når den valgfrie forsideskabelon benyttes på en side sat som statisk forside"
+
+#: functions.php:258
+msgid "Second Front Page Widget Area"
+msgstr "Andet widget-område på forsiden"
+
+#: functions.php:384
+msgid "This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dette indlæg blev udgivet i %1$s og tagget %2$s den %3$s<span class=\"by-author\"> af %4$s</span>."
+
+#: functions.php:386
+msgid "This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dette indlæg blev udgivet i %1$s den %3$s<span class=\"by-author\"> af %4$s</span>."
+
+#: functions.php:388
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr "Dette indlæg blev udgivet den %3$s<span class=\"by-author\"> af %4$s</span>."
+
+#: single.php:21
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: single.php:22
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+msgid "Front Page Template"
+msgstr "Forsideskabelon"
+
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Fuld-størrelse skabelon, ingen sidebar"
+
+#: content.php:14
+msgid "Featured post"
+msgstr "Fremhævet indlæg"
+
+#: functions.php:213
+msgid "Page %s"
+msgstr "Side %s"
+
+#: content-link.php:12
+msgid "Link"
+msgstr "Link"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:27 content.php:28
+msgid "% Replies"
+msgstr "% svar"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:27 content.php:28
+msgid "1 Reply"
+msgstr "1 svar"
+
+#: 404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ud til, at vi ikke kan finde det, du leder efter. Måske vil en søgning hjælpe."
+
+#: content-none.php:17 index.php:53
+msgid "Apologies, but no results were found. Perhaps searching will help find a related post."
+msgstr "Beklager, men ingen resultater blev fundet. Måske vil en søgning hjælpe dig til at finde et relevant indlæg."
+
+#: functions.php:324
+msgid "Post author"
+msgstr "Forfatter"
+
+#: functions.php:309
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: header.php:43
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Videre til indhold"
+
+#: index.php:38
+msgid "No posts to display"
+msgstr "Der er ingen indlæg at vise"
+
+#: index.php:42
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Klar til at udgive dit første indlæg? <a href=\"%s\">Start her</a>."
+
+#: functions.php:378
+msgid "View all posts by %s"
+msgstr "Vis alle indlæg af %s"
+
+#: image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; Forrige"
+
+#: image.php:42
+msgid "Next &rarr;"
+msgstr "Næste &rarr;"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: search.php:38
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Beklager, men din søgning gav ingen resultater. Prøv igen med nogle andre søgeord."
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Arkiver"
+
+msgid "Twenty Twelve"
+msgstr "Twenty Twelve"
+
+msgid "the WordPress team"
+msgstr "holdet bag WordPress"
+
+#: functions.php:336
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer godkendelse."
+
+#: functions.php:330
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: content-aside.php:20 content-link.php:18 content-quote.php:17
+#: content-status.php:15
+msgid "Permalink to %s"
+msgstr "Permalink til %s"
+
+#: functions.php:238
+msgid "Main Sidebar"
+msgstr "Primær sidebar"
+
+#: functions.php:282 single.php:20
+msgid "Post navigation"
+msgstr "Indlægsnavigation"
+
+#: functions.php:283
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ældre indlæg"
+
+#: functions.php:284
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere indlæg <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:309
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr "Primær menu"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Drevet af %s"
+
+#: content-aside.php:26 content-image.php:26 content-link.php:24
+#: content-page.php:24 content-quote.php:23 content-status.php:30
+#: content.php:46 functions.php:341 image.php:37
+msgid "Edit"
+msgstr "Rediger"
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: author.php:53 content.php:53
+msgid "About %s"
+msgstr "Om %s"
+
+#: comments.php:31
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En tanke om \"%2$s\""
+msgstr[1] "%1$s tanker om \"%2$s\""
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Tag-arkiv: %s"
+
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Dagsarkiv: %s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Månedsarkiv: %s"
+
+#: content-aside.php:15 content-image.php:13 content-link.php:14
+#: content-quote.php:13 content-status.php:21 content.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Læs resten <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:23 content-image.php:23 content-link.php:21
+#: content-quote.php:20 content-status.php:27 content.php:28
+msgid "Leave a reply"
+msgstr "Skriv et svar"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:17
+msgid "Semantic Personal Publishing Platform"
+msgstr "Personlig semantisk publiceringsplatform"
+
+#: content-none.php:13 index.php:49 search.php:34
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr "Forfatterarkiv: %s"
+
+#: comments.php:42
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr "&larr; Ældre kommentarer"
+
+#: functions.php:364 functions.php:367
+msgid ", "
+msgstr ", "
+
+#: content-page.php:21 content.php:40 image.php:92
+msgid "Pages:"
+msgstr "Sider:"
+
+#: content.php:57
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vis alle indlæg af %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Dette er lidt pinligt, er det ikke?"

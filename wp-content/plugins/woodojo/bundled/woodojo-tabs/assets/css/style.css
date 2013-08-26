@@ -1,0 +1,74 @@
+	/* 0. BASE RESET AND CLEARFIX */
+body .tabbable { *zoom: 1; }
+body .tabbable .nav { list-style: none; margin: 0; padding: 0; margin-bottom: 18px; }
+body .tabbable .nav li { list-style: none; display: block; float: left; clear: none; margin: 0; padding: 0; margin-bottom: -1px; }
+body .tabbable .nav li a { margin: 0; padding: 0; text-decoration: none; padding: 0.5em 1em; margin-right: 2px; line-height: 14px; border: 1px solid transparent; -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+body .tabbable .nav li a:hover { background: #EEEEEE; border-color: #eeeeee #eeeeee #dddddd; }
+body .tabbable .tab-content { clear: both; }
+
+body .tabbable .clearfix { *zoom: 1; }
+body .tabbable .clearfix:before, body .tabbable .clearfix:after { display: table; content: ""; }
+body .tabbable .clearfix:after { clear: both; }
+body .tabbable .nav-tabs { *zoom: 1; }
+
+body .tabbable .nav-tabs:before,
+body .tabbable .nav-tabs:after { display: table; content: ""; }
+body .tabbable .nav-tabs:after { clear: both; }
+
+/* 1. DEFAULT */
+body .tabbable .nav-tabs { border-bottom: 1px solid #ddd; }
+body .tabbable .nav-tabs > .active > a, body .tabbable .nav-tabs > .active > a:hover { color: #555555; background-color: #ffffff; border: 1px solid #ddd; border-bottom-color: transparent; cursor: default; }
+body .tabbable:before, body .tabbable:after { display: table; content: ""; }
+body .tabbable:after { clear: both; }
+body .tabbable .tab-content { overflow: hidden; }
+body .tabbable .tab-content > .tab-pane { display: none; }
+body .tabbable .tab-content > .active { display: block; }
+
+body .tabbable .tab-pane li { overflow: hidden; list-style: none; margin-bottom: 0.5em; }
+body .tabbable .meta, body .tabbable .comment-content { display: block; }
+
+/* 2. STACKED TABS */
+body .tabbable .nav-stacked > li { float: none; }
+body .tabbable .nav-stacked > li > a { margin-right: 0; }
+body .tabbable .nav-tabs.nav-stacked { border-bottom: 0; }
+body .tabbable .nav-tabs.nav-stacked > li > a { border: 1px solid #ddd; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; }
+body .tabbable .nav-tabs.nav-stacked > li:first-child > a { -webkit-border-radius: 4px 4px 0 0; -moz-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0; }
+body .tabbable .nav-tabs.nav-stacked > li:last-child > a { -webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; }
+body .tabbable .nav-tabs.nav-stacked > li > a:hover { border-color: #ddd; z-index: 2; }
+
+/* 3. TABS POSITIONING */
+/* 3.1 Below */
+body .tabbable.tabs-below .nav-tabs { border-top: 1px solid #ddd; }
+body .tabbable.tabs-below .nav-tabs > li { margin-top: -1px; margin-bottom: 0; }
+body .tabbable.tabs-below .nav-tabs > li > a { -webkit-border-radius: 0 0 4px 4px; -moz-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px; }
+body .tabbable.tabs-below .nav-tabs, body .tabbable.tabs-right .nav-tabs, body .tabbable.tabs-left .nav-tabs { border-bottom: 0; }
+body .tabbable.tabs-below .nav-tabs > li > a:hover { border-bottom-color: transparent; border-top-color: #ddd; }
+body .tabbable.tabs-below .nav-tabs .active > a, body .tabs-below .nav-tabs .active > a:hover { border-color: transparent #ddd #ddd #ddd; }
+
+/* 3.2 Left */
+body .tabbable.tabs-left .nav-tabs > li, body .tabs-right .nav-tabs > li { float: none; }
+body .tabbable.tabs-left .nav-tabs > li > a, body .tabs-right .nav-tabs > li > a { min-width: 74px; margin-right: 0; margin-bottom: 3px; }
+body .tabbable.tabs-left .nav-tabs { float: left; margin-right: 19px; border-right: 1px solid #ddd; }
+body .tabbable.tabs-left .nav-tabs > li > a { margin-right: -1px; -webkit-border-radius: 4px 0 0 4px; -moz-border-radius: 4px 0 0 4px; border-radius: 4px 0 0 4px; }
+body .tabbable.tabs-left .nav-tabs > li > a:hover { border-color: #eeeeee #dddddd #eeeeee #eeeeee; }
+body .tabbable.tabs-left .nav-tabs .active > a, body .tabs-left .nav-tabs .active > a:hover { border-color: #ddd transparent #ddd #ddd; *border-right-color: #ffffff; }
+body .tabbable.tabs-left .tab-content { clear: none; }
+
+/* 3.3 Right */
+body .tabbable.tabs-right .nav-tabs { float: right; margin-left: 19px; border-left: 1px solid #ddd; }
+body .tabbable.tabs-right .nav-tabs > li > a { margin-left: -1px; -webkit-border-radius: 0 4px 4px 0; -moz-border-radius: 0 4px 4px 0; border-radius: 0 4px 4px 0; }
+body .tabbable.tabs-right .nav-tabs > li > a:hover { border-color: #eeeeee #eeeeee #eeeeee #dddddd; }
+body .tabbable.tabs-right .nav-tabs .active > a, body .tabbable.tabs-right .nav-tabs .active > a:hover { border-color: #ddd #ddd #ddd transparent; *border-left-color: #ffffff; }
+body .tabbable.tabs-right .tab-content { clear: none; }
+
+/* 4. IMAGE ALIGNMENT */
+/* 4.1 Left */
+body .tabbable .image-align-left .thumbnail, body .tabbable .image-align-left .photo { float: left; margin-right: 0.8em; }
+
+/* 4.2 Right */
+body .tabbable .image-align-right .thumbnail, body .tabbable .image-align-right .photo { float: right; margin-left: 0.8em; }
+
+/* 5. TAB CONTENT STYLING */
+body .tabbable .tab-pane ul  { margin: 0; padding: 5px; }
+body .tabbable .tab-pane ul li a  { padding: 0; line-height: 1; }
+body .tabbable .tab-pane.tab-pane-tags  { text-align: center; }

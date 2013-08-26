@@ -1,0 +1,46 @@
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {width: 100%; margin: 0 0 30px; padding: 0; text-align: center; }
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; text-align: center; } /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; margin: 0 auto; display: block; padding: 5px; border: 1px solid #dedede;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+/* Suggested container for "Slide" animation setups. Can replace this with your own, if you wish */
+.flex-container {zoom: 1; position: relative;}
+
+/* Caption style */
+/* IE rgba() hack */
+.flex-caption {background:none; -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000); zoom: 1;}
+.flex-caption {width: 96%; padding: 2%; margin: 0; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,.3); color: #fff; text-shadow: 0 -1px 0 rgba(0,0,0,.3); font-size: 14px; line-height: 18px;}
+
+/* Direction Nav */
+.flex-direction-nav { height: 0; margin: 0; }
+.flex-direction-nav li { margin: 0; height: 0; }
+.flex-direction-nav li a { opacity: 0.7; width: 6px; height: 10px; margin: -13px 0 0; display: block; position: absolute; top: 65%; cursor: pointer; text-indent: -999em;}
+.flex-direction-nav li a:hover  { opacity: 1; }
+.flex-direction-nav li .next { background: url(../images/ico-flex-next.png) no-repeat left top; right: -5px;}
+.flex-direction-nav li .prev { background: url(../images/ico-flex-prev.png) no-repeat left top; left: -5px;}
+.flex-direction-nav li .disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 100%; position: absolute; bottom: 25px; margin: 0; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 8px; height: 8px; margin: 0 2px; display: block; cursor: pointer; background: #ccc; text-indent: -999em; border-radius: 30px; -moz-border-radius: 30px; -webkit-border-radius: 30px; }
+.flex-control-nav li a:hover, .flex-control-nav li a.active { background: #333; }

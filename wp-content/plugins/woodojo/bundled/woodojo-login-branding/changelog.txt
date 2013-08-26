@@ -1,0 +1,10 @@
+*** WooDojo Login Branding Changelog ***
+
+2012.06.26 - version 1.0.2
+ * /classes/woodojo-login-branding.class.php - Code standards clean-up and maintenance updates. Add background-size property to the CSS to fix display of login logo when used with WordPress version 3.4.
+ * /classes/settings.class.php - Code standards clean-up and maintenance updates. Add scope to methods where scope was missing.
+ * woodojo-login-branding.php - Code standards clean-up and maintenance updates.
+
+2012.06.19 - version 1.0.1
+ * /classes/woodojo-login-branding.class.php - Escape CSS, image dimensions and logo URL. Add background-size property, set to "auto". Class no longer extends the WooDojo_Settings_API class.
+ * /classes/settings.class.php - Add validate_url() method for validating the various fields expecting a URL.

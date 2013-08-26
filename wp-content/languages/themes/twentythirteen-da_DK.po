@@ -1,0 +1,303 @@
+# Translation of Twenty Thirteen in Danish
+# This file is distributed under the same license as the Twenty Thirteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-08-02 20:08:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Twenty Thirteen\n"
+
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "2013-temaet for WordPress tager os tilbage til bloggen, og byder på en bred vifte af indlægsformater, der hver især er smukke på deres egen unikke måde. Designet bugner med detaljer – med alt lige fra en levende farvesammensætning og matchende header-billeder til en smuk typografi og ikoner, samt et fleksibelt layout der ser godt ud på enhver enhed, stor eller lille."
+
+#: functions.php:229
+msgid "Appears in the footer section of the site."
+msgstr "Vises i footer sektionen på siden."
+
+msgid "http://wordpress.org/themes/twentythirteen"
+msgstr "http://wordpress.org/themes/twentythirteen"
+
+#: image.php:38
+msgid "Link to full-size image"
+msgstr "Link til fuld-størrelse billede"
+
+#: functions.php:227
+msgid "Main Widget Area"
+msgstr "Primært widget område"
+
+#: functions.php:237
+msgid "Secondary Widget Area"
+msgstr "Sekundært widget område"
+
+#: functions.php:239
+msgid "Appears on posts and pages in the sidebar."
+msgstr "Vises på indlæg og sider i sidebaren."
+
+#: image.php:39
+msgid "Full resolution"
+msgstr "Fuld opløsning"
+
+#: inc/back-compat.php:38 inc/back-compat.php:50 inc/back-compat.php:65
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Twenty Thirteen kræver mindst WordPress version 3.6. Du bruger version %s. Opdater og prøv igen."
+
+#: 404.php:16
+msgid "Not found"
+msgstr "Ikke fundet"
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Dette er lidt pinligt, er det ikke?"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Det ser ud til, at vi ikke kan finde det, du leder efter. Måske vil en søgning hjælpe."
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr "Dagsarkiv: %s"
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr "Månedsarkiv: %s"
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:35
+msgid "Archives"
+msgstr "Arkiver"
+
+#: author-bio.php:16
+msgid "About %s"
+msgstr "Om %s"
+
+#: author-bio.php:20
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vis alle indlæg af %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: author.php:30
+msgid "All posts by %s"
+msgstr "Alle indlæg af %s"
+
+#: category.php:19
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: comments.php:25
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En tanke om &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s tanker om &ldquo;%2$s&rdquo;"
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr "Kommentar navigation"
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr "&larr; Ældre kommentarer"
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: content-aside.php:13 content-audio.php:24 content-gallery.php:24
+#: content-image.php:23 content-link.php:24 content-quote.php:13
+#: content-status.php:13 content-video.php:23 content.php:39
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Læs resten <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-aside.php:14 content-audio.php:25 content-chat.php:24
+#: content-gallery.php:25 content-image.php:24 content-link.php:25
+#: content-quote.php:14 content-status.php:14 content-video.php:24
+#: content.php:40 image.php:70 page.php:35
+msgid "Pages:"
+msgstr "Sider:"
+
+#: content-aside.php:20 content-aside.php:28 content-audio.php:31
+#: content-chat.php:29 content-gallery.php:39 content-image.php:35
+#: content-link.php:19 content-quote.php:25 content-status.php:19
+#: content-video.php:35 content.php:29 image.php:44 page.php:39
+msgid "Edit"
+msgstr "Rediger"
+
+#: functions.php:371
+msgid "Permalink to %s"
+msgstr "Permalink til %s"
+
+#: content-gallery.php:36 content-image.php:32 content-quote.php:22
+#: content-video.php:32 content.php:47
+msgid "Leave a comment"
+msgstr "Skriv en kommentar"
+
+#: content-gallery.php:36 content-image.php:32 content-quote.php:22
+#: content-video.php:32 content.php:47
+msgid "One comment so far"
+msgstr "Én kommentar indtil videre"
+
+#: content-gallery.php:36 content-image.php:32 content-quote.php:22
+#: content-video.php:32 content.php:47
+msgid "View all % comments"
+msgstr "Vis alle % kommentarer"
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Intet fundet"
+
+#: content-none.php:18
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar til at udgive dit første indlæg? <a href=\"%1$s\">Start her</a>."
+
+#: content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Beklager, men din søgning gav ingen resultater. Prøv igen med nogle andre søgeord."
+
+#: content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Det ser ud til, at vi ikke kan finde det, du leder efter. Måske vil en søgning hjælpe."
+
+#: footer.php:20
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:20
+msgid "Semantic Personal Publishing Platform"
+msgstr "Personlig semantisk publiceringsplatform"
+
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "Drevet af %s"
+
+#: functions.php:93
+msgid "Navigation Menu"
+msgstr "Navigationsmenu"
+
+#: functions.php:124
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:130
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:212
+msgid "Page %s"
+msgstr "Side %s"
+
+#: functions.php:264
+msgid "Posts navigation"
+msgstr "Indlægsnavigation"
+
+#: functions.php:268
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ældre indlæg"
+
+#: functions.php:272
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere indlæg <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:300
+msgid "Post navigation"
+msgstr "Indlæg navigation"
+
+#: functions.php:303
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:304
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:324
+msgid "Sticky"
+msgstr "Fremhævet"
+
+#: functions.php:330 functions.php:336
+msgid ", "
+msgstr ", "
+
+#: functions.php:345
+msgid "View all posts by %s"
+msgstr "Vis alle indlæg af %s"
+
+#: functions.php:365
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "%1$s den %2$s"
+
+#: header.php:43
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Videre til indhold"
+
+#: image.php:22
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">Udgivet den <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> i <a href=\"%3$s\" title=\"Tilbage til %4$s\" rel=\"gallery\">%5$s</a></span>"
+
+#: image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Forrige"
+
+#: image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Næste <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/custom-header.php:48
+msgctxt "header image description"
+msgid "Circle"
+msgstr "Cirkel"
+
+#: inc/custom-header.php:53
+msgctxt "header image description"
+msgid "Diamond"
+msgstr "Diamant"
+
+#: inc/custom-header.php:58
+msgctxt "header image description"
+msgid "Star"
+msgstr "Stjerne"
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Søgeresultater for: %s"
+
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Tag-arkiv: %s"
+
+#: taxonomy-post_format.php:23
+msgid "%s Archives"
+msgstr "%s arkiver"
+
+msgid "Twenty Thirteen"
+msgstr "Twenty Thirteen"
+
+msgid "the WordPress team"
+msgstr "holdet bag WordPress"

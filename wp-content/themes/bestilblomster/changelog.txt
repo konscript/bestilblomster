@@ -1,0 +1,115 @@
+*** Superstore Changelog ***
+
+2013.08.14 - version 1.0.18
+ * includes/theme-woocommerce.php - Logout link now redirects to the current page.
+ * css/woocommerce.css - Tweaked CSS to improve compatibility with Composite Products extension.
+
+2013.08.12 - version 1.0.17
+ * includes/js/general.js - Better check for Android tablets before fireing doubleTapToGo.
+ * includes/theme-woocommerce.php - Tweaked how WooCommerce styles are dequeued for 2.1.
+ * includes/theme-actions.php - Custom typography widget title fix.
+
+2013.08.07 - version 1.0.16
+ * includes/theme-woocommerce.php - Fixed issue where setting archives to full width affected all WooCommerce pages.
+ * css/woocommerce.css - Fixed white "flicker" on the homepage when using a black background. Improves integration with Product Bundles.
+ * Removed template-sitemap.php and template-timeline.php. Please use http://wordpress.org/plugins/archives-by-woothemes/
+
+2013.07.29 - version 1.0.15
+ * includes/theme-functions.php - Slider now works with WPML.
+ * css/woocommerce.css - Improved integration with MSRP extension.
+ * includes/theme-woocommerce.php - Better checks before calling WooCommerce sidebar.
+
+2013.07.19 - version 1.0.14
+ * includes/js/general.js - Tweaked how doubleTapToGo is fired to fix IE10 issue.
+ * css/layout.css - Added max-width to #logo to fix Firefox issue.
+ * includes/theme-functions.php - infinite scroll now works on all product archives.
+ * styles/shadows.css - Now works in IE and Firefox.
+
+2013.07.08 - version 1.0.13
+ * includes/js/general.js - Fixes disappearing nav on iPad portrait and small tablets.
+ * css/layout.css
+   includes/theme-woocommerce.php - Fixed active states for menu items including cart.
+ * style.css - Fixes issue with images on the map on the contact page having a white background.
+
+2013.06.28 - version 1.0.12
+ * css/woocommerce.css - Animations only animate on desktops. Removed scale on hover on homepage category links.
+ * includes/js/featured-slider.js - Pause on hover fix.
+ * includes/js/third-party.js - IE10 dropdowns no longer require double click to go.
+
+2013.06.24 - version 1.0.11
+ * includes/theme-js.php - Infinite scroll now fires on product tag & brand archives. The taxonomies it fires on are also filterable.
+ * includes/theme-woocommerce.php - Taxonomies queried in woocommerce_get_sidebar() are now filterable. Updated how WooCommerce styles are disabled for 2.1 compatibility. Updated change password URL in superstore_user() for 2.1 compatibility. Related products filtered for 2.1 compatibility.
+ * template-contact.php - Removed defunct twitter feed
+
+2013.06.17 - version 1.0.10
+ * Fixed a bug when using individual product layouts.
+
+2013.06.12 - version 1.0.9
+ * includes/theme-woocommerce.php - Sidebar now visible on brand archives.
+ * style.css - Fixed horizontal scroll on handheld devices.
+ * includes/theme-woocommerce.php - Product layout meta will now override global full-width option for product details pages
+
+2013.05.21 - version 1.0.8
+ * includes/js/jquery.prettyphoto.js - Update to latest. Resolves keyboard shortcuts refreshing the add review lightbox.
+ * includes/theme-functions.php
+   footer.php - Fixed footer breadcrumb positioning.
+ * styles/*.css - Category label colors fixed in handheld orientation.
+ * css/woocommerce.css - Improvements to CC data collection on checkout for relevant gateways. Footer breadcrumbs now hidden on distraction free checkout. Fixed some product layout issues when using certain columns.
+ * includes/sidebar-init.php
+   includes/widgets/widget-woo-recent-products.php
+   index.php - Gave the recent products widget a title input.
+ * css/layout.css - Fixed slide content background in <IE8.
+ * includes/js/general.js - Fitvids now applied to videos in slide content.
+ * style.css - Woo shortcode buttons styles.
+
+2013.05.14 - version 1.0.7
+ * includes/woocommerce.css - Fixed month/year select order for direct payment gateways. Improved distraction-free checkout on mobile devices (hidden navigation items).
+ * includes/js/infinite-scroll.js - Updated to latest stable version. Resolves permalink issue.
+
+2013.04.25 - version 1.0.6
+ * css/woocommerce.css - Footer contact details now hidden on mobile view when using distraction free checkout. Fixed radios on checkout for gateways that save card details. Fixed layout bug when displaying more than 4 featured products on the homepage.
+ * includes/js/general.js
+   includes/js/third-party.js - Improved dropdown behaviour in Android browsers.
+ * includes/theme-actions.php - Fixed blog post title bug when using custom typography.
+ * index.php - Check to see if WooCommerce is activated before displaying new products.
+ * includes/theme-js.php - Fire masonry on window.load to fix overlapping blog grid.
+ * includes/theme-options.php,
+   includes/theme-js.php,
+   includes/js/featured-slider.js - Removed animation speed option.
+ * style.css - Fixed pagination on blog-grid template.
+ * includes/theme-options.php - Fixed broken link for obtaining map co-ordinates.
+
+2013.04.23 - version 1.0.5
+ * theme-actions.php - Tweaked custom typography so that nav settings affect the mini cart.
+ * css/layout.css - Dropdowns no longer appear beneath sale markers. Nav dropdowns now work when not using WordPress menus.
+ * css/woocommerce.css - improved compatibility with local pickup plus. Improved select styling for variable products in IE. Star ratings in product archive tweak. Star rating selection when logged out fix.
+ * includes/theme-js.php - Fixed slider settings (pause on hover etc).
+ * Footer.php - Contact bar will now appear regardless of whether any footer widgets are present.
+ * css/mixins.less - Vendor prefixes for CSS animations. Fixed add to cart loading animation.
+
+2013.04.17 - version 1.0.4
+ * header.php - Removed mfunc_wrapper.
+ * css/woocommerce.css - Updated star ratings css.
+ * includes/js/jquery.prettyPhoto.js - Updated to 3.1.5.
+
+2013.04.16 - version 1.0.3
+ * /css/woocommerce.css - fixed star rating on add review form
+ * /includes/theme-functions.php - Make sure is_woocommerce_activated() is true before using WooCommerce conditional functions.
+
+2013.04.08 - version 1.0.2
+ * css/woocommerce.css - Now using fontawesome for star ratings. Fixed layout when brand widget is placed above featured products in homepage widget region.
+ * style.css - Fixed some border radii on the contact template. Added .clear class.
+ * css/layout.css - Fixed post image distortion bug. Fixed layout overflow on tags template.
+ * template-contact.php, template-tags.php, template-timeline.php, template-sitemap.php - Moved page heading inside .entry for consistency with other templates.
+
+2013.03.26 - version 1.0.1
+ * css/layout.css - Better padding for testimonials / features on business template.
+ * css/woocommerce.css - Distraction free checkout now hides footer.
+ * style.css - Fixed footer hr width. Improved homepage styling when WooCommerce isn't activated.
+ * includes/widgets/widget-woo-featured-products.php - No longer loads unless WooCommerce is activated.
+ * includes/theme-functions.php - Phone number is now a tel: link.
+ * /styles/*.css - fixed sale marker colour consistency. Tweaked placeholder attribute.
+ * /lang/en_GB.po - rescanned.
+
+2013.03.19 - version 1.0.0
+ * First release!

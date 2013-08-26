@@ -1,0 +1,10 @@
+*** WooDojo Tab Grouping Changelog ***
+2012.02.02 - versio 1.0.2
+ * /classes/class-woodojo-tab-grouping.php - Code Standards. Correctly hook form actions. Fix reload location on edit. Fix nonce name on delete. Correctly handle slug name changes on edit.
+ * /classes/class-list-table.php - Correct nonce name for edit.
+2012.08.30 - version 1.0.1
+ * /screens/edit-screen.php - Prevent direct file access.
+ * /screens/list-screen.php - Prevent direct file access.
+ * /classes/class-list-table.php - Prevent direct file access. Add missing docblocks.
+ * /classes/class-woodojo-tab-grouping.php - Prevent direct file access. Add missing docblocks.
+ * woodojo-tab-grouping.php - Prevent direct file access.
