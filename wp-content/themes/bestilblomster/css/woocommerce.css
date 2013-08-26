@@ -1531,6 +1531,7 @@ ul.products li.product .img-wrap .price:after {
   bottom: -0.58em;
 }
 ul.products li.product .img-wrap .details-link {
+  display: none;
   position: absolute;
   height: 5.874em;
   width: 5.874em;
