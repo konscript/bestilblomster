@@ -1,0 +1,79 @@
+*** Ship to Multiple Addresses Changelog ***
+
+2013.08.12 - version 2.1.8
+ * Bug fix: Enhancement to touch device support
+ * Enhancement: Added filter 'wcms_order_shipping_packages_table' to output multiple shipping address
+
+2013.07.23 - version 2.1.7
+ * Bug fix: Changing between local pickup and delivery had caused multi-shipping form to display
+
+2013.07.03 - version 2.1.6
+ * Bug fix: Ability to edit an address that has been added to ship to
+ * Bug fix: Do not show select address form on virtual products only in cart
+ * Enhancement: Support for adding multiple addresses on touch devices
+ * Enhancement: Better support for multiple gift certificates only in cart
+ * Enhancement: Better support for Local Pickup Plus plugin 
+
+2013.06.19 - version 2.1.5
+ * Bug fix: Do not show select address form if local pickup is only available method
+
+2013.06.15 - version 2.1.4
+ * Cleanup: Better support of guest checkout when using multiple addresses
+ * Bug fix: Allow selecting of address you've saved to address book in cases where it wasn't being allowed
+ * Bug fix: Support Order Notes which weren't being supported in all cases
+
+2013.06.09 - version 2.1.3
+ * Cleanup: Address form overlay cleanup.
+
+2013.05.21 - version 2.1.2
+ * Bug fix: The 'woocommerce_shipping_fields' filter not working in some installs. Updated instances of that hook/filter to WC_Countries::get_address_fields, which also calls apply_filters('woocommerce_shipping_fields').
+
+2013.05.16 - version 2.1.1
+ * Bug fix: No longer allow 0.5 of a product to be shipped to a location
+ * Cleanup: Various code improvements to the add to address drag/drop
+
+2013.05.09 - version 2.1.0
+ * Added support for the WooCommerce Checkout Field Editor by WooThemes only
+
+2013.05.03 - version 2.0.6
+ * Enhancement: If quantity of item in cart > 1, dragging/dropping will prompt customer for quantity to add to the respective address
+
+2013.04.30 - version 2.0.5
+ * Bug fix: Fixed issue where if only one product was selected, the shipping methods wouldn't load
+
+2013.04.11 - version 2.0.4
+ * Bug fix: At times draggable wouldn't initialize
+ * Cleanup: Made draggable areas more precise for customers when selecting products from cart
+
+2013.03.29 - version 2.0.3
+ * Bug fix: Fixed inaccurate loading of flat-rate shipping fees where it double loaded in some cases
+
+2013.03.14 - version 2.0.2
+ * Bug fixes: Fixed issue where multi-shipping options never loaded addresses
+
+2013.01.30 - version 2.0.1
+ * Code cleanup
+ * 2.0 Fixes
+ * Fix missing addresses on address-form
+
+2013.01.30 - version 2.0.0
+ * Added new drag and drop interface to adding products to addresses
+ * Added ability to ship entire cart to multiple locations
+ * Bug fixes
+ * Ability to edit text shown on checkout page
+ * Support for WooCommerce 2.0
+ * Support for taxes by billing or shipping address
+
+-2012.12.04 - version 1.1.1
+ * New updater
+
+2012.10.04 - version 1.1.0
+ * Bug fixes
+ * Changed free-form entries to static selections to avoid customer typos
+
+2012.09.21 - version 1.0.1
+ * Minor CSS changes
+ * Added address edit button to address table on checkout
+
+2012.08.07 - version 1.0
+ * First release
