@@ -114,8 +114,6 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 <?php } ?>
 		<?php woo_main_after(); ?>
 
-        <?php if ( 'true' == $settings['homepage_posts_sidebar'] ) { get_sidebar(); } ?>
-
     </div><!-- /#content -->
 
 <?php get_footer(); ?>
