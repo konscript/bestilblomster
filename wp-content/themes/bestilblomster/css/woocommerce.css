@@ -1323,10 +1323,6 @@ span.onsale {
   background-clip: padding-box;
   z-index: 98;
   background: #2ab6d6;
-  -webkit-animation: salepulse 1s infinite;
-  -moz-animation: salepulse 1s infinite;
-  -o-animation: salepulse 1s infinite;
-  animation: salepulse 1s infinite;
   z-index: 99;
 }
 span.onsale:after {
