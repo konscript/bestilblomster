@@ -1,0 +1,386 @@
+
+
+.swatch-wrapper {
+    padding:2px;
+    background:#fff;
+    border:1px solid #ccc; /* this is grey, change to what you want */
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.swatch-wrapper:hover { /* will need jquery or something for < IE8 to allow hover on other items.., or use jquery to add class to it on hover and target that */
+    border-color:#000 /* this is black, change to waht you want */
+}
+
+.swatch-wrapper.disabled:hover { /* will need jquery or something for < IE8 to allow hover on other items.., or use jquery to add class to it on hover and target that */
+    border-color:#ccc; /* this is black, change to waht you want */
+}
+
+.swatch-wrapper a {
+    display:block;
+}
+
+.swatch-wrapper img { /* for images */
+}
+
+div.swatch-wrapper.selected  {
+    border:2px solid green; /* this is grey, change to what you want */
+    padding:1px;
+}
+
+
+div.swatch-wrapper.disabled, div.swatch-wrapper.disabled a {
+
+    cursor: not-allowed;
+
+    /* Required for IE 5, 6, 7 */	
+    zoom:1; 
+    /* Theoretically for IE 8 & 9 (more valid) */	
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=50);
+    /* Older than Firefox 0.9 */
+    -moz-opacity:0.5;
+    /* Safari 1.x (pre WebKit!) */
+    -khtml-opacity: 0.5;
+    /* Modern!
+    /* Firefox 0.9+, Safari 2?, Chrome any?
+    /* Opera 9+, IE 9+ */
+    opacity: 0.5;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------
+        Admin Table
+---------------------------------------------------------------------------------------------*/
+table.wcsap_input {
+    border: 0 none;
+}
+
+table.wcsap_input tbody tr td {
+    padding: 10px;
+}
+
+table.wcsap_input tr.field_save {
+
+}
+
+table.wcsap_input tbody tr:last-child td {
+    border-bottom: 0 none;
+}
+
+table.wcsap_input tbody tr td.label {
+    width: 24%;
+    vertical-align: top;
+    border-right: #ebebeb solid 1px;
+}
+
+table.wcsap_input td.label ul.hl {
+    margin: 20px 0 0;
+}
+table.wcsap_input td.label ul.hl li {
+    margin: 0 3px 0 0;
+
+}
+
+table.wcsap_input td.label ul.hl li a.wcsap-button {
+    font-size: 12px;
+    padding: 6px 10px;
+    font-weight: normal;
+}
+
+table.wcsap_input tbody tr td.label label{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #333;
+
+}
+
+table.wcsap_input tbody tr td.label label span.required {
+    color: #f00;
+    display: inline;
+    margin-right: 5px;
+}
+
+
+table.wcsap_input tbody tr td.label p{
+    display: block;
+    font-size: 12px;
+    padding: 6px 0 !important;
+    margin: 0 !important;
+    font-style: normal;
+    line-height: 16px;
+    color: #666;
+}
+
+table.wcsap_input input[type=text],
+table.wcsap_input textarea,
+table.wcsap_input select{
+    width: 99.95%;
+    padding: 5px;
+    outline: none;
+}
+
+table.wcsap_input select {
+    padding: 2px;
+}
+
+table.wcsap_input input[type=text]:focus,
+table.wcsap_input textarea:focus,
+table.wcsap_input select:focus {
+    border-color:#98B6CB;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------
+        Table
+---------------------------------------------------------------------------------------------*/
+table.widefat.wcsap {
+    border: 0 none;
+    background: transparent none;
+}
+
+table.widefat.wcsap td {
+    border: 0 none;
+}
+
+.wcsap,
+.wcsap tr,
+.wcsap tr td {
+    vertical-align: top;
+}
+
+.wcsap tr th span {
+    color: #666;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: normal;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.wcsap tr td.field_preview,
+.wcsap tr th.field_preview  {
+    text-indent: 32px;
+    width:25%;
+}
+
+.wcsap tr td.field_label,
+.wcsap tr th.field_label  {
+    width: 25%;
+}
+
+.wcsap tr td.field_name,
+.wcsap tr th.field_name  {
+    width: 25%;
+}
+
+.wcsap tr td.field_type,
+.wcsap tr th.field_type  {
+    width: 25%;
+}
+
+.wcsap tr td {
+    background: transparent;
+    padding: 8px;
+    position: relative;
+    font-size: 12px;
+}
+
+
+
+.wcsap tr td.attribute_swatch_label,
+.wcsap tr th.attribute_swatch_label  {
+    width: 50%;
+}
+
+.wcsap tr td.attribute_swatch_type,
+.wcsap tr th.attribute_swatch_type  {
+    width: 50%;
+    text-align: right;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+        Fields Header
+---------------------------------------------------------------------------------------------*/
+.fields_header {
+    -moz-border-radius: 3px 3px 0 0; 
+    -webkit-border-radius: 3px 3px 0 0; 
+    -khtml-border-radius: 3px 3px 0 0; 
+    border-radius: 3px 3px 0 0; 
+    border: #DFDFDF solid 1px;
+    border-bottom: 0 none;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+        Field Meta
+---------------------------------------------------------------------------------------------*/
+
+#swatches .wcsap_field_meta {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#swatches .field .wcsap_field_meta {
+    border: #DFDFDF solid 1px;
+    border-top: 0 none;
+}
+
+#swatches .field .wcsap_field_meta strong {
+    display: block;
+    padding-bottom: 6px;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+#swatches .field .wcsap_field_meta .row_options {
+    font-size: 12px;
+    line-height: 12px;
+    visibility: hidden;
+}
+
+#swatches .field .wcsap_field_meta:hover .row_options {
+    visibility: visible;
+}
+
+#swatches .field.form_open > .wcsap_field_meta {
+    background-color: #6e6e6e;
+    color: #fff;
+    text-shadow: #000 0 1px 0;
+    border: #565656 solid 1px;
+    /*border-top: #565656 solid 1px;
+    border-left:0 none;
+    border-right:0 none;*/
+
+}
+
+#swatches .field.form_open > .wcsap_field_meta td,
+#swatches .field.form_open > .wcsap_field_meta a {
+    color: #fff;
+}
+
+#swatches .field.form_open > .wcsap_field_meta a:hover {
+    color: #ff8a4f;
+}
+
+#swatches .fields .field .wcsap_field_meta .circle {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 20px;
+    display: block;
+    float: left;
+    margin: 7px 0 0 7px;
+    text-indent: 0;
+    background: url(../images/sprite.png) 0 -350px no-repeat;
+}
+
+#swatches .fields .field:nth-child(2n) .wcsap_field_meta .circle {
+    background-position: 0 -400px;
+
+}
+
+#swatches .field.form_open > .wcsap_field_meta .circle {
+    background-position: 0 -300px !important;
+}
+
+
+.fields {
+    position: relative;
+    background: #FCFCFC;
+    box-shadow: inset 0 0 0 1px #DFDFDF;
+}
+
+.fields .field {
+    position: relative;
+    overflow: hidden;
+    background: #F9F9F9;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+        Field Options
+---------------------------------------------------------------------------------------------*/
+.field_options {
+    background: #DFDFDF;
+    position: relative;
+    overflow: hidden;
+}
+
+.field_options .field_option {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    padding: 6px;
+}
+
+.field_options .field_option.open {
+    display: block;
+}
+
+.field_options .field_option table {
+    border: #CCCCCC solid 1px;
+    border-radius: 5px;
+}
+
+
+.field_save td {
+    line-height: 25px;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+        Field Form
+---------------------------------------------------------------------------------------------*/
+.field_form {
+    border: #7390a5 solid 1px;
+    border-top: 0 none;
+    background: #DADADA;
+    padding: 10px;
+    clear: both;
+    vertical-align: top;
+}
+
+.field_form table.wcsap_input {
+    border: #7390a5 solid 1px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.field_form table.wcsap_input tr.field_label td {
+    border-top: 0 none;
+}
+
+.field_form table.wcsap_input td {
+    background: transparent;
+    border-bottom-color: #DFDFDF;
+    border-top-color: #FFFFFF;
+}
+
+.field_form_mask {
+    display: none;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+}
+
+
+table.wcsap_input .field_option_color input.woo-color {
+    width: 92.95%;
+    padding: 5px;
+    outline: none;
+    margin-left: 5px;
+}

@@ -1,0 +1,33 @@
+/* Add these styles to your custom stylesheet if you are using default twenty twelve theme */
+
+table.variations-table {
+  width: 100%;
+  border: 1px solid #ddd !important;
+  border-right: 0;
+  border-bottom: 0;
+  margin-bottom: 1.5em;
+  border-collapse: separate;
+}
+
+table.variations-table th,
+table.variations-table td {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px !important;
+  text-align: left;
+}
+
+table.variations-table th {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#eeeeee));
+  background: -webkit-linear-gradient(#ffffff, #eeeeee);
+  background: -moz-linear-gradient(center top, #ffffff 0%, #eeeeee 100%);
+  background: -moz-gradient(center top, #ffffff 0%, #eeeeee 100%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+table.variations-table td {
+  vertical-align: top;
+}
