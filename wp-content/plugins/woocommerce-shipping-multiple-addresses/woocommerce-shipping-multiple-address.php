@@ -38,7 +38,7 @@ if ( is_woocommerce_active() ) {
         public $settings            = null;
         public static $lang         = array(
             'notification'  => 'You may use multiple shipping addresses on this cart',
-            'btn_items'     => 'Set Addresses'
+            'btn_items'     => 'Indtast adresser'
         );
 
         function __construct() {
