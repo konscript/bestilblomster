@@ -8,3 +8,5 @@ Template:       bestilblomster
 Version:        1.0
 */
 @import url("../bestilblomster/style.css");
+
+#navigation { background-color: #557915 !important;}
