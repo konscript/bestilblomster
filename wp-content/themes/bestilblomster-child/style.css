@@ -9,4 +9,39 @@ Version:        1.0
 */
 @import url("../bestilblomster/style.css");
 
-#navigation { background-color: #557915 !important;}
+
+/* Navigation */
+#navigation { background-color: #31460C !important;}
+#navigation ul.nav>li.parent:hover a { background-color: #557915 !important;}
+
+/* User account links */
+
+#header .account .account-links:before { content: none;}
+
+#header .header-top .row .account {
+	width: auto !important;
+	
+}
+
+#header .account .account-links ul li a { display: inline-block;}
+
+#header .header-top .row .account .account-links ul li a { padding: 0.5em 1em !important; width: auto !important;}
+#header .account .account-links ul li a:before { font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; width: auto; font-weight: bold;}
+#header .account.logged-out .account-links ul li.my-account a:before {
+	content: "Log ind";
+}
+#header .account.logged-in .account-links ul li.my-account a:before {
+	content: "Min bruger";
+}
+#header .account.logged-in .account-links ul li.edit-address a:before {
+	content: "Mine adresser";
+}
+#header .account.logged-in .account-links ul li.edit-password a:before {
+	content: "Skift password";
+}
+#header .account.logged-in .account-links ul li.logout a:before {
+	content: "Log ud";
+}
+#header .header-top .row .account .account-links { float: right;}
+#header .header-top .row .account .account-links ul li { float: left;}
+#header .header-top .row .account .account-links { margin-left: 2em !important;}
