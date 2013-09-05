@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Superstore v1.0.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-09-04 15:55:41+0000\n"
+"PO-Revision-Date: 2013-09-05 12:26:10+0000\n"
 "Last-Translator: kristian <seedorff.himself@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -99,7 +99,7 @@ msgstr ""
 #: comments.php:65
 #@ woothemes
 msgid "No comments yet."
-msgstr ""
+msgstr "Ingen kommentarer endnu."
 
 #: content-page.php:39
 #: content-page.php:43
@@ -180,7 +180,7 @@ msgstr ""
 #: functions/admin-backup.php:127
 #@ woothemes
 msgid "All Settings"
-msgstr ""
+msgstr "Alle variationer"
 
 #: functions/admin-backup.php:128
 #@ woothemes
@@ -3260,12 +3260,12 @@ msgstr ""
 #: includes/theme-woocommerce.php:390
 #@ woothemes
 msgid "Log In"
-msgstr ""
+msgstr "Log ind"
 
 #: includes/theme-woocommerce.php:390
 #@ woothemes
 msgid "My Account"
-msgstr ""
+msgstr "Min bruger"
 
 #: includes/theme-woocommerce.php:394
 #@ woothemes
@@ -3275,22 +3275,22 @@ msgstr ""
 #: includes/theme-woocommerce.php:400
 #@ woothemes
 msgid "Edit Address"
-msgstr ""
+msgstr "Redigér adresser"
 
 #: includes/theme-woocommerce.php:403
 #@ woothemes
 msgid "Change Password"
-msgstr ""
+msgstr "Skift password"
 
 #: includes/theme-woocommerce.php:406
 #@ woothemes
 msgid "Logout"
-msgstr ""
+msgstr "Log ud"
 
 #: includes/theme-woocommerce.php:541
 #@ woothemes
 msgid "View your shopping cart"
-msgstr ""
+msgstr "Vis kurv"
 
 #: includes/widgets/widget-woo-adspace.php:12
 #@ woothemes
@@ -3696,7 +3696,7 @@ msgstr ""
 #: woocommerce/content-product_cat.php:59
 #@ woothemes
 msgid "View products"
-msgstr ""
+msgstr "Vis produkter"
 
 #: woocommerce/single-product/tabs/description.php:14
 #@ woocommerce

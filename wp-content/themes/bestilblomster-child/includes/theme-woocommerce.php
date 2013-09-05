@@ -534,7 +534,7 @@ function header_add_to_cart_fragment( $fragments ) {
 function superstore_cart_button() {
 	global $woocommerce;
 	?>
-	<a class="cart-contents" href="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" title="<?php _e( 'View your shopping cart', 'woothemes' ); ?>"><?php echo $woocommerce->cart->get_cart_total(); ?> <span class="contents"><?php echo $woocommerce->cart->cart_contents_count;?></span></a>
+	<a class="cart-contents" href="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" title="<?php _e( 'Vis kurv', 'woothemes' ); ?>"><?php echo $woocommerce->cart->get_cart_total(); ?> <span class="contents"><?php echo $woocommerce->cart->cart_contents_count;?></span></a>
 	<?php
 }
 
