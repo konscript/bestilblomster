@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.0.13\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2013-01-09 09:36:51+00:00\n"
-"PO-Revision-Date: 2013-09-05 10:03:06+0000\n"
+"PO-Revision-Date: 2013-09-06 10:51:35+0000\n"
 "Last-Translator: Ramon van Belzen <woocommerce@ramoonus.nl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -6316,7 +6316,7 @@ msgstr "Kategorien indeholder ét produkt"
 #, fuzzy, php-format, php-format
 #@ woocommerce
 msgid "Showing all %d results"
-msgstr "Vis alle undertyper"
+msgstr "%d resultater i kategorien"
 
 #: templates/loop/result-count.php:32
 #, php-format
@@ -13434,27 +13434,27 @@ msgstr ""
 #: templates/loop/orderby.php:22
 #@ woocommerce
 msgid "Sort by popularity"
-msgstr ""
+msgstr "Sortér efter popularitet"
 
 #: templates/loop/orderby.php:23
 #@ woocommerce
 msgid "Sort by average rating"
-msgstr ""
+msgstr "Sortér efter bedømmelse"
 
 #: templates/loop/orderby.php:24
 #@ woocommerce
 msgid "Sort by newness"
-msgstr ""
+msgstr "Sortér efter nyeste"
 
 #: templates/loop/orderby.php:25
 #@ woocommerce
 msgid "Sort by price: low to high"
-msgstr ""
+msgstr "Sortér efter pris: lav til høj"
 
 #: templates/loop/orderby.php:26
 #@ woocommerce
 msgid "Sort by price: high to low"
-msgstr ""
+msgstr "Sortér efter pris: høj til lav"
 
 #: templates/myaccount/my-orders.php:62
 #, php-format
