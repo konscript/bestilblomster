@@ -9,6 +9,10 @@ Version:        1.0
 */
 @import url("../bestilblomster/style.css");
 
+/* Catalog */
+ul.products h3 {
+	min-height: 74px;
+}
 
 /* Navigation */
 #navigation { background-color: #31460C !important;}
@@ -23,7 +27,6 @@ Version:        1.0
 
 #header .header-top .row .account {
 	width: auto !important;
-
 }
 
 #header .account .account-links ul li a { display: inline-block;}
