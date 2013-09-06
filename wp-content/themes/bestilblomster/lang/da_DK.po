@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Superstore v1.0.18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-09-05 12:26:10+0000\n"
+"PO-Revision-Date: 2013-09-06 12:47:26+0000\n"
 "Last-Translator: kristian <seedorff.himself@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1456,7 +1456,7 @@ msgstr ""
 #: includes/theme-functions.php:737
 #@ woothemes
 msgid "Loading the next set of products..."
-msgstr ""
+msgstr "Indlæser produkter"
 
 #: includes/theme-functions.php:738
 #@ woothemes
@@ -2247,7 +2247,7 @@ msgstr ""
 #: includes/theme-options.php:589
 #@ woothemes
 msgid "Recent Products"
-msgstr ""
+msgstr "Nye produkter"
 
 #: includes/theme-options.php:592
 #: includes/theme-options.php:619
@@ -3681,7 +3681,7 @@ msgstr ""
 #: template-sitemap.php:85
 #@ woothemes
 msgid "Products"
-msgstr ""
+msgstr "Produkter"
 
 #: template-timeline.php:83
 #@ woothemes
