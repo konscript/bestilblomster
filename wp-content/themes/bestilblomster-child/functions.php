@@ -30,4 +30,5 @@ function custom_override_checkout_fields( $fields ) {
      );
      return $fields;
 }
- ?>
+add_image_size( 'slider-img', 1200, 400, true );
+?>
