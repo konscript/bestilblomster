@@ -46,13 +46,7 @@ woo_head();
 				</hgroup>
 
 				<?php woo_nav_before(); ?>
-				<div class="countdown">
-					
-					<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri() ?>/countdown.js">
-						
-					</script>
-					
-				</div>
+				<img class="phone" src="<?php echo get_stylesheet_directory_uri() ?>/img/tel.png">
 	    	</div><!--/.row-->
 
 	    </div><!--/.header-top-->

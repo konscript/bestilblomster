@@ -54,13 +54,24 @@ ul.products h3 {
 
 .countdown { width: 40%; float: right; text-align: right; padding-right: 2em; padding-top: 1em; margin-bottom: -2em;}
 
+img.phone { 
+	width: 18%;
+	float: right;
+	margin-right: 25px;
+	margin-bottom: -20px;
+}
+
+@media only screen and (min-width: 769px) {
+	#header .header-top .row .account { position: absolute; top: 0; right: 0;}
+}
+
 /* Sidebar */
 #sidebar img { height:auto;}
 
 /* Newsletter */
 .newsletter input { 
 	background-color: rgba(255,255,255,0.8);
-	height: 3.3125em;
+	height: 2.6125em;
 	max-width: 40em;
 	margin-left: auto;
 	margin-right: auto;
@@ -68,6 +79,10 @@ ul.products h3 {
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
+.gfield { margin: 0;}
+.gform_wrapper form { margin: 0;}
+.gform_wrapper .gform_heading { margin-bottom: 0;}
+.ginput_container { margin-bottom: 0.618em;}
 .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
 	width: 100% !important;
 	padding-left: 10px;
@@ -75,4 +90,5 @@ ul.products h3 {
 
 #footer h4 { font-size: 1.2em; color: #fff;}
 mark.count { display:none;}
+ul.products li.product .img-wrap img { width: auto; height: auto;}
 ul.products li.product h3:after { content: none !important;}
