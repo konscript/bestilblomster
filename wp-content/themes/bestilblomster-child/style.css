@@ -74,3 +74,5 @@ ul.products h3 {
 }
 
 #footer h4 { font-size: 1.2em; color: #fff;}
+mark.count { display:none;}
+ul.products li.product h3:after { content: none !important;}
