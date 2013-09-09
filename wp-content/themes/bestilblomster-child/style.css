@@ -15,7 +15,7 @@ ul.products h3 {
 }
 
 /* Navigation */
-#navigation { background-color: #31460C !important;}
+#navigation { background-color: #6A8F0B !important;}
 #navigation ul.nav>li.parent:hover a { background-color: #557915 !important;}
 #navigation ul.nav > li.current_page_item a, #navigation ul.nav li.current-menu-ancestor a, #navigation ul.nav li.current-cat a, #navigation ul.nav li.current-menu-item a {
 	background: #79ac1e !important;
