@@ -51,18 +51,23 @@ ul.products h3 {
 #header .header-top .row .account .account-links { float: right;}
 #header .header-top .row .account .account-links ul li { float: left;}
 #header .header-top .row .account .account-links { margin-left: 2em !important;}
-
+#header .account { display: none !important;}
 .countdown { width: 40%; float: right; text-align: right; padding-right: 2em; padding-top: 1em; margin-bottom: -2em;}
 
 img.phone { 
-	width: 18%;
-	float: right;
-	margin-right: 25px;
-	margin-bottom: -20px;
+	display: none;
 }
 
 @media only screen and (min-width: 769px) {
-	#header .header-top .row .account { position: absolute; top: 0; right: 0;}
+	#header .header-top .row .account { position: absolute; top: 3px; right: 0;}
+	img.phone { 
+		display: inline-block;
+		width: 18%;
+		float: right;
+		margin-right: 25px;
+		margin-bottom: -20px;
+		margin-top: -10px;
+	}
 }
 
 /* Sidebar */
