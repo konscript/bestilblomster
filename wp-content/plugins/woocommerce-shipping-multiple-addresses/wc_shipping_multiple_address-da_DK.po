@@ -1,0 +1,352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Ship to Multiple Addresses v2.1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-11 10:46:26+0000\n"
+"Last-Translator: kristian <seedorff.himself@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: address-form.php:54
+#@ wc_shipping_multiple_address
+msgid "Cart Items"
+msgstr "Varer"
+
+#: address-form.php:95
+#@ wc_shipping_multiple_address
+msgid "Duplicate Cart"
+msgstr "Dublikér kurv"
+
+#: address-form.php:107
+#@ wc_shipping_multiple_address
+msgid "Saved Addresses"
+msgstr "Gemte adresser"
+
+#: address-form.php:108
+#: address-form.php:196
+#@ wc_shipping_multiple_address
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: address-form.php:195
+#@ wc_shipping_multiple_address
+msgid "Shipping Addresses"
+msgstr "Forsendelsesadresser"
+
+#: address-form.php:294
+#@ wc_shipping_multiple_address
+msgid "Save Addresses and Continue"
+msgstr "Gem adresser og fortsæt"
+
+#: address-form.php:319
+#: woocommerce-shipping-multiple-address.php:864
+#@ wc_shipping_multiple_address
+msgid "Use this address"
+msgstr "Brug denne adresse"
+
+#: address-form.php:342
+#@ wc_shipping_multiple_address
+msgid "Save Address"
+msgstr "Gem adresse"
+
+#: address-form.php:351
+#@ wc_shipping_multiple_address
+msgid "Select an existing address"
+msgstr "Vælg en eksisterende adresse"
+
+#: address-form.php:399
+#@ wc_shipping_multiple_address
+msgid "Duplicate Cart Items"
+msgstr "Dublikér kurvens indhold"
+
+#: multi-shipping.php:20
+#: multi-shipping.php:57
+#: woocommerce-shipping-multiple-address.php:214
+#@ wc_shipping_multiple_address
+msgid "Multiple Shipping"
+msgstr "Forsendelse til flere adresser"
+
+#: multi-shipping.php:21
+#@ wc_shipping_multiple_address
+msgid "Multiple Shipping is used automatically by the WooCommerce Ship to Multiple Addresses."
+msgstr ""
+
+#: multi-shipping.php:54
+#@ wc_shipping_multiple_address
+msgid "Title"
+msgstr ""
+
+#: multi-shipping.php:56
+#@ wc_shipping_multiple_address
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: multi-shipping.php:61
+#: settings.php:98
+#@ wc_shipping_multiple_address
+msgid "Cart Duplication"
+msgstr ""
+
+#: multi-shipping.php:62
+#: settings.php:99
+#@ wc_shipping_multiple_address
+msgid "This functionality will allow your customers to duplicate the contents of their cart in order to be able to ship the same cart to multiple addresses in addition to individual products."
+msgstr ""
+
+#: multi-shipping.php:65
+#@ wc_shipping_multiple_address
+msgid "Enable Cart Duplication"
+msgstr ""
+
+#: multi-shipping.php:71
+#: settings.php:108
+#@ wc_shipping_multiple_address
+msgid "Text your shoppers see when Multiple Shipping is enabled at checkout"
+msgstr ""
+
+#: multi-shipping.php:75
+#: settings.php:113
+#@ wc_shipping_multiple_address
+msgid "Checkout Notification"
+msgstr ""
+
+#: multi-shipping.php:81
+#: settings.php:117
+#@ wc_shipping_multiple_address
+msgid "Button: Item Addresses"
+msgstr ""
+
+#: settings.php:32
+#: woocommerce-shipping-multiple-address.php:214
+#@ wc_shipping_multiple_address
+msgid "Multiple Shipping Settings"
+msgstr ""
+
+#: settings.php:35
+#@ wc_shipping_multiple_address
+msgid "Your settings have been saved"
+msgstr ""
+
+#: settings.php:38
+#@ wc_shipping_multiple_address
+msgid "Below you can set the shipping methods available for a specific product or product category. This functionality will allow you to define the shipping methods that are available to be used by your customers when purchasing products from your store. Pricing is managed by your existing shipping methods, or by the rates that you set in your store's settings. This just enables/disables specific methods for specific products."
+msgstr ""
+
+#: settings.php:45
+#@ wc_shipping_multiple_address
+msgid "Origin Zip Code"
+msgstr ""
+
+#: settings.php:46
+#@ wc_shipping_multiple_address
+msgid "Shipping Method"
+msgstr "Forsendelsesmetode"
+
+#: settings.php:47
+#@ wc_shipping_multiple_address
+msgid "Products"
+msgstr "Produkter"
+
+#: settings.php:48
+#@ wc_shipping_multiple_address
+msgid "Categories"
+msgstr "Kategorier"
+
+#: settings.php:96
+#@ wc_shipping_multiple_address
+msgid "Add Another"
+msgstr "Tilføj ny"
+
+#: settings.php:104
+#@ wc_shipping_multiple_address
+msgid "Enable cart duplication"
+msgstr ""
+
+#: settings.php:125
+#@ wc_shipping_multiple_address
+msgid "Save Changes"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:288
+#: woocommerce-shipping-multiple-address.php:289
+#@ wc_shipping_multiple_address
+msgid "Delivery Notes"
+msgstr "Note til forsendelse"
+
+#: woocommerce-shipping-multiple-address.php:316
+#@ periship
+msgid "Shipping Options"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:319
+#: woocommerce-shipping-multiple-address.php:1599
+#: woocommerce-shipping-multiple-address.php:1839
+#@ wc_shipping_multiple_address
+msgid "Shipping Methods"
+msgstr "Forsendelsesmetoder"
+
+#: woocommerce-shipping-multiple-address.php:399
+#@ wc_shipping_multiple_address
+msgid "Other Shipping Addresses"
+msgstr "Andre forsendelsesadresser"
+
+#: woocommerce-shipping-multiple-address.php:400
+#@ woocommerce
+msgid "Add or Edit Addresses"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:406
+#@ wc_shipping_multiple_address
+msgid "No shipping addresses set up yet."
+msgstr "Der er endnu ikke oprettet nogen forsendelsesadresser."
+
+#: woocommerce-shipping-multiple-address.php:407
+#@ wc_shipping_multiple_address
+msgid "Set up shipping addresses"
+msgstr "Opret forsendelsesadresser"
+
+#: woocommerce-shipping-multiple-address.php:424
+#: woocommerce-shipping-multiple-address.php:862
+#@ woocommerce
+msgid "You have not set up a shipping address yet."
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:551
+#@ woocommerce
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:581
+#@ wc_shipping_multiple_address
+msgid "Please enter the complete address"
+msgstr "Indtast venligst den fulde adresse"
+
+#: woocommerce-shipping-multiple-address.php:644
+#@ wc_shipping_multiple_address
+msgid "Address is already in your address book"
+msgstr "Adressen er allerede i din adressesamling"
+
+#: woocommerce-shipping-multiple-address.php:841
+#@ wc_shipping_multiple_address
+msgid "Address Book"
+msgstr "Adressesamling"
+
+#: woocommerce-shipping-multiple-address.php:869
+#@ wc_shipping_multiple_address
+msgid "You have no shipping addresses saved."
+msgstr "Du har ikke gemt nogen forsendelsesadresser."
+
+#: woocommerce-shipping-multiple-address.php:960
+#: woocommerce-shipping-multiple-address.php:973
+#@ wc_shipping_multiple_address
+msgid "Modify/Add Address"
+msgstr "Redigér/tilføj adresse"
+
+#: woocommerce-shipping-multiple-address.php:987
+#@ wc_shipping_multiple_address
+msgid "Multiple Shipping Addresses"
+msgstr "Flere forsendelsesadresser"
+
+#: woocommerce-shipping-multiple-address.php:988
+#@ woocommerce
+msgid "Page contents: [woocommerce_select_multiple_addresses] Parent: \"Checkout\""
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1070
+#@ wc_followup_emails
+msgid "One or more items has no shipping address."
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1089
+#@ wc_shipping_multiple_address
+msgid "Add another"
+msgstr "Tilføj ny"
+
+#: woocommerce-shipping-multiple-address.php:1125
+#@ wc_shipping_multiple_address
+msgid "Save Addresses"
+msgstr "Gem adresser"
+
+#: woocommerce-shipping-multiple-address.php:1195
+#@ woocommerce
+msgid "Order could not be found"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1199
+#@ wc_shipping_multiple_address
+msgid "This order does not ship to multiple addresses"
+msgstr "Denne ordrer bliver ikke sendt til flere adresser"
+
+#: woocommerce-shipping-multiple-address.php:1209
+#: woocommerce-shipping-multiple-address.php:1262
+#: woocommerce-shipping-multiple-address.php:2420
+#@ woocommerce
+msgid "Product"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1209
+#: woocommerce-shipping-multiple-address.php:1263
+#: woocommerce-shipping-multiple-address.php:2421
+#@ woocommerce
+msgid "Qty"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1209
+#@ woocommerce
+msgid "Address"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1259
+#: woocommerce-shipping-multiple-address.php:1549
+#: woocommerce-shipping-multiple-address.php:2417
+#@ wc_shipping_multiple_address
+msgid "This order ships to multiple addresses."
+msgstr "Denne ordrer sendes til flere adresser."
+
+#: woocommerce-shipping-multiple-address.php:1367
+#@ wc_shipping_multiple_address
+msgid "Addresses have been saved"
+msgstr "Adresser gemt"
+
+#: woocommerce-shipping-multiple-address.php:1383
+#@ wc_shipping_multiple_address
+msgid "Order Shipping Addresses"
+msgstr "Ordrens forsendelsesadresser"
+
+#: woocommerce-shipping-multiple-address.php:1449
+#@ woocommerce
+msgid "Edit"
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1549
+#@ wc_shipping_multiple_address
+msgid "View Addresses"
+msgstr "Vis adresser"
+
+#: woocommerce-shipping-multiple-address.php:1696
+#: woocommerce-shipping-multiple-address.php:1793
+#: woocommerce-shipping-multiple-address.php:1913
+#@ woocommerce
+msgid "Sorry, it seems that there are no available shipping methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: woocommerce-shipping-multiple-address.php:1701
+#: woocommerce-shipping-multiple-address.php:1798
+#: woocommerce-shipping-multiple-address.php:1918
+#@ wc_shipping_multiple_address
+msgid "Modify address"
+msgstr "Redigér adresse"
+
