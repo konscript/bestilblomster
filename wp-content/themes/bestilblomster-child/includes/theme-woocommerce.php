@@ -326,7 +326,7 @@ if ( ! function_exists( 'woocommerce_theme_before_content' ) ) {
 	    <div id="content" class="col-full <?php echo esc_attr( $columns ); ?>">
 
 	        <!-- #main Starts -->
-	        <?php woo_main_before(); ?>
+	        
 	        <div id="main" class="col-left">
 
 	    <?php
